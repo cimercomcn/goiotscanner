@@ -18,7 +18,7 @@ func BinwalkMe(bin_path, out_dir string) bool {
     // 指定要执行的命令和参数
     switch os := runtime.GOOS; os {
     case "darwin":
-        cmd = exec.Command("sudo", "binwalk", "-Me", out_dir, bin_path)
+        cmd = exec.Command("sudo", "binwalk", "-Me", out_dir, bin_path, "--run-as=root")
 
         // 设置SysProcAttr字段以提升进程权限
         cmd.SysProcAttr = &syscall.SysProcAttr{
@@ -30,12 +30,12 @@ func BinwalkMe(bin_path, out_dir string) bool {
         cmd = exec.Command("binwalk", "-Me", "-C",
             out_dir, bin_path, "--run-as=root")
     }
-
+    fmt.Printf("cmd.String(): %v\n", cmd.String())
     // 执行命令并等待结果
     output, err := cmd.CombinedOutput()
     if err != nil {
         _cfgPtr.Logs.CommonLog.Fatal(
-            fmt.Sprintln("error executing command:", err))
+            fmt.Sprintln("error executing command:", err.Error()))
         return false
     }
 
