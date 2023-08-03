@@ -3,14 +3,14 @@ package scan
 import (
     "fmt"
 
-    "github.com/neumannlyu/gobinscan/pkg/config"
-    "github.com/neumannlyu/gobinscan/pkg/sql"
+    "github.com/cimercomcn/goiotscanner/pkg/common"
+    "github.com/cimercomcn/goiotscanner/pkg/config"
+    "github.com/cimercomcn/goiotscanner/pkg/tools"
 
     "os"
     "path/filepath"
 
-    "github.com/neumannlyu/gobinscan/pkg/common"
-    "github.com/neumannlyu/gobinscan/pkg/tools"
+    "github.com/cimercomcn/goiotscanner/pkg/sql"
     "github.com/neumannlyu/golog"
 )
 

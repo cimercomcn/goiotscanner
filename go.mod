@@ -1,4 +1,4 @@
-module github.com/neumannlyu/gobinscan
+module github.com/cimercomcn/goiotscanner
 
 go 1.20
 

@@ -8,9 +8,9 @@ import (
     "strconv"
     "strings"
 
+    "github.com/cimercomcn/goiotscanner/pkg/common"
+    "github.com/cimercomcn/goiotscanner/pkg/sql"
     "github.com/fatih/color"
-    "github.com/neumannlyu/gobinscan/pkg/common"
-    "github.com/neumannlyu/gobinscan/pkg/sql"
     "github.com/neumannlyu/golog"
 )
 

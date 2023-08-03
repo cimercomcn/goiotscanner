@@ -13,8 +13,8 @@ import (
 func TestMain(m *testing.M) {
     start := time.Now()
     InitConfig(
-        0b0,
-        "/Users/neumann/Desktop/zy.bin",
+        0xffffffff,
+        "../zy.bin",
         "postgresql",
         "172.16.5.114",
         "ly",

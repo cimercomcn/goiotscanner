@@ -7,8 +7,8 @@ import (
     "path/filepath"
     "strings"
 
+    "github.com/cimercomcn/goiotscanner/pkg/common"
     _ "github.com/lib/pq"
-    "github.com/neumannlyu/gobinscan/pkg/common"
     "github.com/neumannlyu/golog"
 )
 

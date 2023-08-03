@@ -7,11 +7,11 @@ import (
     "path/filepath"
     "strings"
 
-    "github.com/neumannlyu/gobinscan/pkg/common"
-    "github.com/neumannlyu/gobinscan/pkg/config"
-    "github.com/neumannlyu/gobinscan/pkg/scan"
-    "github.com/neumannlyu/gobinscan/pkg/sql"
-    "github.com/neumannlyu/gobinscan/pkg/tools"
+    "github.com/cimercomcn/goiotscanner/pkg/common"
+    "github.com/cimercomcn/goiotscanner/pkg/config"
+    "github.com/cimercomcn/goiotscanner/pkg/scan"
+    "github.com/cimercomcn/goiotscanner/pkg/sql"
+    "github.com/cimercomcn/goiotscanner/pkg/tools"
     "github.com/neumannlyu/golog"
 )
 
@@ -30,15 +30,17 @@ func InitConfig(
     databaseName string,
     loglevel int) *config.CFG {
     fmt.Println(`
-
-    _____     ____  ______  _____     __      _  _____    ____    ____       __      _  
-   / ___ \   / __ \(_   _ \(_   _)   /  \    / )/ ____\  / ___)  (    )     /  \    / ) 
-  / /   \_) / /  \ \ ) (_) ) | |    / /\ \  / /( (___   / /      / /\ \    / /\ \  / /  
- ( (  ____ ( ()  () )\   _/  | |    ) ) ) ) ) ) \___ \ ( (      ( (__) )   ) ) ) ) ) )  
- ( ( (__  )( ()  () )/  _ \  | |   ( ( ( ( ( (      ) )( (       )    (   ( ( ( ( ( (   
-  \ \__/ /  \ \__/ /_) (_) )_| |__ / /  \ \/ /  ___/ /  \ \___  /  /\  \  / /  \ \/ /   
-   \____/    \____/(______//_____((_/    \__/  /____/    \____)/__(  )__\(_/    \__/ v0.0.5    
-                                                                            
+▄████  ▒█████   ██▓ ▒█████  ▄▄▄█████▓  ██████  ▄████▄   ▄▄▄       ███▄    █  ███▄    █ ▓█████  ██▀███  
+██▒ ▀█▒▒██▒  ██▒▓██▒▒██▒  ██▒▓  ██▒ ▓▒▒██    ▒ ▒██▀ ▀█  ▒████▄     ██ ▀█   █  ██ ▀█   █ ▓█   ▀ ▓██ ▒ ██▒
+▒██░▄▄▄░▒██░  ██▒▒██▒▒██░  ██▒▒ ▓██░ ▒░░ ▓██▄   ▒▓█    ▄ ▒██  ▀█▄  ▓██  ▀█ ██▒▓██  ▀█ ██▒▒███   ▓██ ░▄█ ▒
+░▓█  ██▓▒██   ██░░██░▒██   ██░░ ▓██▓ ░   ▒   ██▒▒▓▓▄ ▄██▒░██▄▄▄▄██ ▓██▒  ▐▌██▒▓██▒  ▐▌██▒▒▓█  ▄ ▒██▀▀█▄  
+░▒▓███▀▒░ ████▓▒░░██░░ ████▓▒░  ▒██▒ ░ ▒██████▒▒▒ ▓███▀ ░ ▓█   ▓██▒▒██░   ▓██░▒██░   ▓██░░▒████▒░██▓ ▒██▒
+░▒   ▒ ░ ▒░▒░▒░ ░▓  ░ ▒░▒░▒░   ▒ ░░   ▒ ▒▓▒ ▒ ░░ ░▒ ▒  ░ ▒▒   ▓▒█░░ ▒░   ▒ ▒ ░ ▒░   ▒ ▒ ░░ ▒░ ░░ ▒▓ ░▒▓░
+    ░   ░   ░ ▒ ▒░  ▒ ░  ░ ▒ ▒░     ░    ░ ░▒  ░ ░  ░  ▒     ▒   ▒▒ ░░ ░░   ░ ▒░░ ░░   ░ ▒░ ░ ░  ░  ░▒ ░ ▒░
+░ ░   ░ ░ ░ ░ ▒   ▒ ░░ ░ ░ ▒    ░      ░  ░  ░  ░          ░   ▒      ░   ░ ░    ░   ░ ░    ░     ░░   ░ 
+        ░     ░ ░   ░      ░ ░                 ░  ░ ░            ░  ░         ░          ░    ░  ░   ░     
+                                                ░                                                  ░ v0.0.1 
+                                                                                                     
     `)
 
     // set log level, need run it before GetConfigInstance function.
