@@ -141,7 +141,6 @@ func checkCmdLine() bool {
             }
             // 设置默认的提取目录
             _cfgPtr.BinExtractedDir = pwd
-            fmt.Printf("_cfgPtr.BinExtractedDir1111: %v\n", _cfgPtr.BinExtractedDir)
         } else { // 指定提取目录
             // 检查指定提取目录是否存在
             if _, err := os.Stat(_cfgPtr.BinExtractedDir); os.IsNotExist(err) {

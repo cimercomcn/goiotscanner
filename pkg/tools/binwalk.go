@@ -16,24 +16,21 @@ import (
 // @param 提取后的输出目录
 // @return bool
 func BinwalkMe(bin_path, out_dir string) bool {
-    fmt.Printf("out_dir: %v\n", out_dir)
     var cmd *exec.Cmd = nil
     // 执行binwalk
     // 指定要执行的命令和参数
     switch osp := runtime.GOOS; osp {
     case "darwin":
         _cfgPtr = *config.GetConfigInstance()
-        cmd = exec.Command("sudo", "binwalk", "-Me", bin_path, "--run-as=root")
+        cmd = exec.Command("sudo", "binwalk", "-Me", "-C", out_dir, bin_path,
+            "--run-as=root")
         cmd.Stdin = os.Stdin
-        // fmt.Printf("_cfgPtr.BinExtractedDir: %v\n", _cfgPtr.BinExtractedDir)
         lastSlashIndex := strings.LastIndex(_cfgPtr.BinExtractedDir, "/")
-
         if lastSlashIndex != -1 {
             // 使用字符串切片截取最后一个斜杠前面的内容
             _cfgPtr.BinExtractedDir = _cfgPtr.BinExtractedDir[:lastSlashIndex]
             // fmt.Println("Path without last segment:", result)
         }
-        // fmt.Printf("_cfgPtr.BinExtractedDir: %v\n", _cfgPtr.BinExtractedDir)
     case "linux":
         cmd = exec.Command("binwalk", "-Me", "-C",
             out_dir, bin_path, "--run-as=root")

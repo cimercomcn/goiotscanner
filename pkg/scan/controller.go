@@ -22,12 +22,11 @@ func Start() common.Report {
         _report.Binfile.Dir = filepath.Dir(abs)
         _report.Binfile.MD5 = _report.Binfile.GetMD5()
     }
-    fmt.Printf("_cfgPtr.BinExtractedDir  25: %v\n", _cfgPtr.BinExtractedDir)
     // 1. 提取文件
     if _cfgPtr.RunModule&config.MODULE_EXTRACT == 1 && !extractBinFile() {
         return _report
     }
-    fmt.Printf("_cfgPtr.BinExtractedDir  30: %v\n", _cfgPtr.BinExtractedDir)
+
     // 2. 检查固件加密情况
     if !checkIsEncrypted() {
         return _report
@@ -70,8 +69,6 @@ func checkIsEncrypted() bool {
     }
 
     if pass1 || pass2 {
-        fmt.Printf("pass1: %v\n", pass1)
-        fmt.Printf("pass2: %v\n", pass2)
         _cfgPtr.Logs.CommonLog.Fatal("发现固件被加密，请解密后再尝试分析。")
         return false
     } else {
