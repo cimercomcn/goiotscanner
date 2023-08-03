@@ -3,6 +3,7 @@ package tools
 import (
     "fmt"
     "os/exec"
+    "runtime"
 )
 
 // 利用binwalk工具提取传入的bin文件。
@@ -11,10 +12,17 @@ import (
 // @param 提取后的输出目录
 // @return bool
 func BinwalkMe(bin_path, out_dir string) bool {
+    var cmd *exec.Cmd = nil
     // 执行binwalk
     // 指定要执行的命令和参数
-    cmd := exec.Command("binwalk", "-Me", "-C",
-        out_dir, bin_path, "--run-as=root")
+    switch os := runtime.GOOS; os {
+    case "darwin":
+        cmd = exec.Command("binwalk", "-Me",
+            out_dir, bin_path, "--run-as=root")
+    case "linux":
+        cmd = exec.Command("binwalk", "-Me", "-C",
+            out_dir, bin_path, "--run-as=root")
+    }
 
     // 执行命令并等待结果
     output, err := cmd.CombinedOutput()
