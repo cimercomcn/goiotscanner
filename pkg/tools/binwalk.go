@@ -18,7 +18,7 @@ func BinwalkMe(bin_path, out_dir string) bool {
     // 指定要执行的命令和参数
     switch os := runtime.GOOS; os {
     case "darwin":
-        cmd := exec.Command("sudo", "binwalk", "-Me", out_dir, bin_path)
+        cmd = exec.Command("sudo", "binwalk", "-Me", out_dir, bin_path)
 
         // 设置SysProcAttr字段以提升进程权限
         cmd.SysProcAttr = &syscall.SysProcAttr{
