@@ -1,18 +1,18 @@
 package iotscanner
 
 import (
-    "flag"
-    "fmt"
-    "os"
-    "path/filepath"
-    "strings"
+	"flag"
+	"fmt"
+	"os"
+	"path/filepath"
+	"strings"
 
-    "github.com/cimercomcn/goiotscanner/pkg/common"
-    "github.com/cimercomcn/goiotscanner/pkg/config"
-    "github.com/cimercomcn/goiotscanner/pkg/scan"
-    "github.com/cimercomcn/goiotscanner/pkg/sql"
-    "github.com/cimercomcn/goiotscanner/pkg/tools"
-    "github.com/neumannlyu/golog"
+	"github.com/cimercomcn/goiotscanner/pkg/common"
+	"github.com/cimercomcn/goiotscanner/pkg/config"
+	"github.com/cimercomcn/goiotscanner/pkg/scan"
+	"github.com/cimercomcn/goiotscanner/pkg/sql"
+	"github.com/cimercomcn/goiotscanner/pkg/tools"
+	"github.com/neumannlyu/golog"
 )
 
 // first call
@@ -33,7 +33,7 @@ func InitConfig(
 ██║   ██║██║   ██║██║██║   ██║   ██║   ╚════██║██║     ██╔══██║██║╚██╗██║██║╚██╗██║██╔══╝  ██╔══██╗
 ╚██████╔╝╚██████╔╝██║╚██████╔╝   ██║   ███████║╚██████╗██║  ██║██║ ╚████║██║ ╚████║███████╗██║  ██║
  ╚═════╝  ╚═════╝ ╚═╝ ╚═════╝    ╚═╝   ╚══════╝ ╚═════╝╚═╝   ╚═╝╚═╝ ╚═══╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝
-                                                                                        v0.0.9
+                                                                                        v0.0.10 beta
                                                                                         `)
 
     // set log level, need run it before GetConfigInstance function.
