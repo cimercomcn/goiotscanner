@@ -85,6 +85,7 @@ func extractBinFile() bool {
         fmt.Sprintf("[开始提取] %s > %s\n",
             _cfgPtr.BinFile, _cfgPtr.BinExtractedDir))
 
+    fmt.Printf("_cfgPtr.BinExtractedDir: %v\n", _cfgPtr.BinExtractedDir)
     if !tools.BinwalkMe(_cfgPtr.BinFile, _cfgPtr.BinExtractedDir) {
         _cfgPtr.Logs.CommonLog.Fatal("提取固件文件失败")
         return false
@@ -94,6 +95,7 @@ func extractBinFile() bool {
     }
     _cfgPtr.BinExtractedDir = filepath.Join(_cfgPtr.BinExtractedDir,
         "_"+filepath.Base(_cfgPtr.BinFile)+".extracted")
+
     return true
 }
 

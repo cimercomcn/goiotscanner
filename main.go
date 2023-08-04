@@ -1,4 +1,4 @@
-package gobinscan
+package iotscanner
 
 import (
     "flag"
@@ -39,7 +39,7 @@ func InitConfig(
     ░   ░   ░ ▒ ▒░  ▒ ░  ░ ▒ ▒░     ░    ░ ░▒  ░ ░  ░  ▒     ▒   ▒▒ ░░ ░░   ░ ▒░░ ░░   ░ ▒░ ░ ░  ░  ░▒ ░ ▒░
 ░ ░   ░ ░ ░ ░ ▒   ▒ ░░ ░ ░ ▒    ░      ░  ░  ░  ░          ░   ▒      ░   ░ ░    ░   ░ ░    ░     ░░   ░ 
         ░     ░ ░   ░      ░ ░                 ░  ░ ░            ░  ░         ░          ░    ░  ░   ░     
-                                                ░                                                  ░ v0.0.1 
+                                                ░                                                  ░ v0.0.9 beta 
                                                                                                      
     `)
 
@@ -57,17 +57,16 @@ func InitConfig(
     _cfgPtr.DB.Password = databasePassword
     _cfgPtr.DB.Name = databaseName
 
+    return _cfgPtr
+}
+
+func Run() common.Report {
     // 检查运行环境
     if !checkEnv() {
         _cfgPtr.Logs.CommonLog.Fatal("检查运行环境失败，运行失败")
         os.Exit(0)
     }
     _cfgPtr.Logs.OK.Logln("检查运行环境完成")
-
-    return _cfgPtr
-}
-
-func Run() common.Report {
     return scan.Start()
 }
 
