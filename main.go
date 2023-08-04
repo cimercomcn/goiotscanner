@@ -163,27 +163,32 @@ func checkCmdLine() bool {
             cfgPtr.Logs.CommonLog.Debug(
                 "User specified the extraction directory.")
             // 检查指定提取目录是否存在
-            if _, err := os.Stat(cfgPtr.BinExtractedDir); os.IsNotExist(err) {
-                if golog.CatchError(err) {
-                    cfgPtr.Logs.CommonLog.Fatal(
-                        fmt.Sprintf(
-                            "The extraction directory %s does not exist.",
-                            cfgPtr.BinExtractedDir))
-                    return false
-                }
+            _, err := os.Stat(cfgPtr.BinExtractedDir)
+            if os.IsNotExist(err) {
+                golog.CatchError(err)
+                cfgPtr.Logs.CommonLog.Fatal(
+                    fmt.Sprintf(
+                        "The extraction directory %s does not exist.",
+                        cfgPtr.BinExtractedDir))
+                return false
+            }
 
-                // 目录存在
-                files, err := os.ReadDir(cfgPtr.BinExtractedDir)
-                if golog.CatchError(err) {
-                    return false
-                }
+            // 目录存在
+            files, err := os.ReadDir(cfgPtr.BinExtractedDir)
+            if golog.CatchError(err) {
+                return false
+            }
 
-                // The extraction directory must empty.
-                if len(files) != 0 {
-                    cfgPtr.Logs.CommonLog.Fatal(
-                        "The extraction directory must empty.")
-                    return false
+            cfgPtr.Logs.CommonLog.Debug(
+                fmt.Sprintf("len files: %d", len(files)))
+            // The extraction directory must empty.
+            for _, filename := range files {
+                if strings.HasPrefix(filename.Name(), ".") {
+                    continue
                 }
+                cfgPtr.Logs.CommonLog.Fatal(
+                    "The extraction directory must empty.")
+                return false
             }
         }
     } else {

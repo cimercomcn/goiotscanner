@@ -31,7 +31,6 @@ func BinwalkMe(bin_path, out_dir string) bool {
             "--run-as=root")
         cmd.Stdin = os.Stdin
     case "linux":
-        fmt.Printf("out_dir: %v\n", out_dir)
         cmd = exec.Command(
             "binwalk",
             "-Me",
