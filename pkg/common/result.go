@@ -29,6 +29,7 @@ type SystemInfo struct {
 
 // 最终报告结构体
 type Report struct {
+    RunningReuslt         RR
     Binfile               BinFileInfo
     ExtractedFileInfo     ExFileInfo
     Time                  Times

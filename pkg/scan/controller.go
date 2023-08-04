@@ -17,19 +17,21 @@ import (
 // 扫描从这里开始
 func Start() common.Report {
     // 保存固件文件信息
-    _report.Binfile.Name = filepath.Base(_cfgPtr.BinFile)
+    common.GReport.Binfile.Name = filepath.Base(_cfgPtr.BinFile)
     if abs, err := filepath.Abs(_cfgPtr.BinFile); !golog.CatchError(err) {
-        _report.Binfile.Dir = filepath.Dir(abs)
-        _report.Binfile.MD5 = _report.Binfile.GetMD5()
+        common.GReport.Binfile.Dir = filepath.Dir(abs)
+        common.GReport.Binfile.MD5 = common.GReport.Binfile.GetMD5()
     }
+
     // 1. 提取文件
     if _cfgPtr.RunModule&config.MODULE_EXTRACT == 1 && !extractBinFile() {
-        return _report
+        common.GReport.RunningReuslt = common.RR_ERROR_EXTRACTED_BIN
+        return common.GReport
     }
 
     // 2. 检查固件加密情况
     if !checkIsEncrypted() {
-        return _report
+        return common.GReport
     }
     // 3. 扫描提取的文件
     scanExtractedFiles(_cfgPtr.BinExtractedDir)
@@ -40,8 +42,9 @@ func Start() common.Report {
 
     // 资源回收
     sql.Isql.Close()
-    printKernelVulnerabilityInfo(_report.Kernelvulnerablities)
-    return _report
+    printKernelVulnerabilityInfo(common.GReport.Kernelvulnerablities)
+    common.GReport.RunningReuslt = common.RR_PASS
+    return common.GReport
 }
 
 // 检查固件是否被加密
@@ -85,7 +88,6 @@ func extractBinFile() bool {
         fmt.Sprintf("[开始提取] %s > %s\n",
             _cfgPtr.BinFile, _cfgPtr.BinExtractedDir))
 
-    fmt.Printf("_cfgPtr.BinExtractedDir: %v\n", _cfgPtr.BinExtractedDir)
     if !tools.BinwalkMe(_cfgPtr.BinFile, _cfgPtr.BinExtractedDir) {
         _cfgPtr.Logs.CommonLog.Fatal("提取固件文件失败")
         return false

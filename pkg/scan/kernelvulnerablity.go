@@ -24,13 +24,13 @@ func scanKernelVulnerability(root string) {
     }
 
     // 保存Linux内核信息
-    _report.KernelVersion = lki.ToString()
+    common.GReport.KernelVersion = lki.ToString()
 
     // 查询所有的内核CVE记录
     kvs := sql.Isql.GetAllKernelVuln()
     for _, kv := range kvs {
         if kv.IsAffected(lki) {
-            _report.Kernelvulnerablities = append(_report.Kernelvulnerablities, kv)
+            common.GReport.Kernelvulnerablities = append(common.GReport.Kernelvulnerablities, kv)
         }
     }
 }
@@ -69,7 +69,7 @@ func getKernelInfo(current_dir string) (common.Version, error) {
             fmt.Printf("\n\n\n")
 
             // 保存到result对象中
-            _report.KernelInfo = line
+            common.GReport.KernelInfo = line
 
             // 提取捕获组中的 x.y.z
             matches := re.FindStringSubmatch(line)[1:]

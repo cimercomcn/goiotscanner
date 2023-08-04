@@ -7,6 +7,7 @@ import (
     "runtime"
 
     "github.com/cimercomcn/goiotscanner/pkg/config"
+    "github.com/neumannlyu/golog"
 )
 
 // 利用binwalk工具提取传入的bin文件。
@@ -29,7 +30,6 @@ func BinwalkMe(bin_path, out_dir string) bool {
             bin_path,
             "--run-as=root")
         cmd.Stdin = os.Stdin
-        fmt.Printf("cmd.String(): %v\n", cmd.String())
     case "linux":
         fmt.Printf("out_dir: %v\n", out_dir)
         cmd = exec.Command(
@@ -39,18 +39,18 @@ func BinwalkMe(bin_path, out_dir string) bool {
             bin_path,
             "--run-as=root")
     }
-    // fmt.Printf("cmd.String(): %v\n", cmd.String())
+    cfgPtr.Logs.CommonLog.Debug("Command: " + cmd.String())
     // 执行命令并等待结果
-    _, err := cmd.CombinedOutput()
-    if err != nil {
+    output, err := cmd.CombinedOutput()
+    if golog.CatchError(err) {
         cfgPtr.Logs.CommonLog.Fatal(
-            fmt.Sprintln("error executing command:", err.Error()))
+            fmt.Sprintln("error executing command: ", err.Error()))
         return false
     }
 
     // 将结果作为字符串输出
-    // cfgPtr.Logs.CommonLog.Info(
-    //     fmt.Sprintln(string(output)))
+    cfgPtr.Logs.CommonLog.Debug(
+        fmt.Sprintln(string(output)))
     return true
 }
 
