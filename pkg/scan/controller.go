@@ -31,6 +31,7 @@ func Start() common.Report {
 
     // 2. 检查固件加密情况
     if !checkIsEncrypted() {
+        common.GReport.RunningReuslt = common.RR_ERROR_ENCRYPTED_BIN
         return common.GReport
     }
     // 3. 扫描提取的文件
