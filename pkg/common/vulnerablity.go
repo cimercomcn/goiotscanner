@@ -42,9 +42,21 @@ func (v *Vulnerablity) IsAffected(ver Version) bool {
         // 此时只需要比较两个版本号是否一致即可
         ps := strings.Split(v.AffectedVersion, ".")
         var tmp Version
-        tmp.MajorVersion, _ = strconv.Atoi(ps[0])
-        tmp.MinorVersion, _ = strconv.Atoi(ps[1])
-        tmp.PatchVersion, _ = strconv.Atoi(ps[2])
+        if len(ps) == 1 {
+            tmp.MajorVersion, _ = strconv.Atoi(ps[0])
+            tmp.MinorVersion = 0
+            tmp.PatchVersion = 0
+        } else if len(ps) == 2 {
+            tmp.MajorVersion, _ = strconv.Atoi(ps[0])
+            tmp.MinorVersion, _ = strconv.Atoi(ps[1])
+            tmp.PatchVersion = 0
+        } else if len(ps) == 3 {
+            tmp.MajorVersion, _ = strconv.Atoi(ps[0])
+            tmp.MinorVersion, _ = strconv.Atoi(ps[1])
+            tmp.PatchVersion, _ = strconv.Atoi(ps[2])
+        } else {
+            return false
+        }
         return tmp.IsAfter(ver) == 0
     }
 
