@@ -1,0 +1,3352 @@
+
+██████╗  ██████╗  ██╗ ██████╗ ████████╗███████╗ ██████╗ █████╗ ███╗   ██╗███╗   ██╗███████╗██████╗ 
+██╔════╝ ██╔═══██╗██║██╔═══██╗╚══██╔══╝██╔════╝██╔════╝██╔══██╗████╗  ██║████╗  ██║██╔════╝██╔══██╗
+██║  ███╗██║   ██║██║██║   ██║   ██║   ███████╗██║     ███████║██╔██╗ ██║██╔██╗ ██║█████╗  ██████╔╝
+██║   ██║██║   ██║██║██║   ██║   ██║   ╚════██║██║     ██╔══██║██║╚██╗██║██║╚██╗██║██╔══╝  ██╔══██╗
+╚██████╔╝╚██████╔╝██║╚██████╔╝   ██║   ███████║╚██████╗██║  ██║██║ ╚████║██║ ╚████║███████╗██║  ██║
+ ╚═════╝  ╚═════╝ ╚═╝ ╚═════╝    ╚═╝   ╚══════╝ ╚═════╝╚═╝   ╚═╝╚═╝ ╚═══╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝
+                                                                                    v0.0.11 beta
+                                                                                        
+[2023-09-14 17:28:58] INFO 开始检查运行环境
+[2023-09-14 17:28:58] INFO [1]正在加载配置文件
+[2023-09-14 17:28:58]  OK  加载配置文件完成
+[2023-09-14 17:28:58] INFO [2]正在解析命令行参数
+[2023-09-14 17:28:58] DEBUG check command line args...
+[2023-09-14 17:28:58] DEBUG Not need extract bin file.
+[2023-09-14 17:28:58] DEBUG User not specify the extraction directory.
+[2023-09-14 17:28:58]  OK  解析命令行参数完成
+[2023-09-14 17:28:58] INFO [3]正在检查组件
+[2023-09-14 17:28:58] INFO skip check binwalk module.
+[2023-09-14 17:28:58] INFO open MySQL successfully.
+[2023-09-14 17:28:58]  OK  连接数据库
+[2023-09-14 17:28:58]  OK  检查组件完成
+[2023-09-14 17:28:58]  OK  检查运行环境完成
+[2023-09-14 17:28:58] PASS 
+
+
+				固件加密未加密
+
+
+
+[2023-09-14 17:28:58] INFO  << 50000.squashfs
+
+[2023-09-14 17:28:58] INFO  << B80000.squashfs
+
+[2023-09-14 17:28:58] INFO  << D75757.xz
+
+[2023-09-14 17:28:58] INFO  << D758A5
+
+[2023-09-14 17:28:58] INFO  << D758A5.xz
+
+[2023-09-14 17:28:58] SKIP     _D758A5.extracted
+[2023-09-14 17:28:58] INFO  << bashrc.sh
+
+[2023-09-14 17:28:58] INFO  << bash
+
+[2023-09-14 17:28:58] INFO  << curl
+
+[2023-09-14 17:28:58] INFO  << fsck.fat
+
+[2023-09-14 17:28:58] INFO  << iptables
+
+[2023-09-14 17:28:58] INFO  << exfat.ko
+
+[2023-09-14 17:28:58] INFO  << hi3516cv500_rtc.ko
+
+[2023-09-14 17:28:58] INFO  << hi_adc.ko
+
+[2023-09-14 17:28:58] INFO  << hi_gpio.ko
+
+[2023-09-14 17:28:58] INFO  << hi_motor.ko
+
+[2023-09-14 17:28:58] INFO  << hi_piris.ko
+
+[2023-09-14 17:28:58] INFO  << hi_pwm.ko
+
+[2023-09-14 17:28:58] INFO  << hi_sensor_i2c.ko
+
+[2023-09-14 17:28:58] INFO  << hi_sensor_spi.ko
+
+[2023-09-14 17:28:58] INFO  << mx41908.ko
+
+[2023-09-14 17:28:58] INFO  << pan41908.ko
+
+[2023-09-14 17:28:58] INFO  << hi3516cv500_acodec.ko
+
+[2023-09-14 17:28:58] INFO  << hi3516cv500_adec.ko
+
+[2023-09-14 17:28:58] INFO  << hi3516cv500_aenc.ko
+
+[2023-09-14 17:28:58] INFO  << hi3516cv500_ai.ko
+
+[2023-09-14 17:28:58] INFO  << hi3516cv500_aio.ko
+
+[2023-09-14 17:28:58] INFO  << hi3516cv500_ao.ko
+
+[2023-09-14 17:28:58] INFO  << hi3516cv500_base.ko
+
+[2023-09-14 17:28:58] INFO  << hi3516cv500_chnl.ko
+
+[2023-09-14 17:28:58] INFO  << hi3516cv500_dis.ko
+
+[2023-09-14 17:28:58] INFO  << hi3516cv500_gdc.ko
+
+[2023-09-14 17:28:58] INFO  << hi3516cv500_h264e.ko
+
+[2023-09-14 17:28:58] INFO  << hi3516cv500_h265e.ko
+
+[2023-09-14 17:28:58] INFO  << hi3516cv500_hdmi.ko
+
+[2023-09-14 17:28:58] INFO  << hi3516cv500_ir.ko
+
+[2023-09-14 17:28:58] INFO  << hi3516cv500_isp.ko
+
+[2023-09-14 17:28:58] INFO  << hi3516cv500_ive.ko
+
+[2023-09-14 17:28:58] INFO  << hi3516cv500_jpegd.ko
+
+[2023-09-14 17:28:58] INFO  << hi3516cv500_jpege.ko
+
+[2023-09-14 17:28:58] INFO  << hi3516cv500_nnie.ko
+
+[2023-09-14 17:28:58] INFO  << hi3516cv500_rc.ko
+
+[2023-09-14 17:28:58] INFO  << hi3516cv500_rgn.ko
+
+[2023-09-14 17:28:58] INFO  << hi3516cv500_svprt.ko
+
+[2023-09-14 17:28:58] INFO  << hi3516cv500_sys.ko
+
+[2023-09-14 17:28:58] INFO  << hi3516cv500_tde.ko
+
+[2023-09-14 17:28:58] INFO  << hi3516cv500_vdec.ko
+
+[2023-09-14 17:28:58] INFO  << hi3516cv500_vedu.ko
+
+[2023-09-14 17:28:58] INFO  << hi3516cv500_venc.ko
+
+[2023-09-14 17:28:58] INFO  << hi3516cv500_vfmw.ko
+
+[2023-09-14 17:28:58] INFO  << hi3516cv500_vgs.ko
+
+[2023-09-14 17:28:58] INFO  << hi3516cv500_vi.ko
+
+[2023-09-14 17:28:58] INFO  << hi3516cv500_vo.ko
+
+[2023-09-14 17:28:58] INFO  << hi3516cv500_vpss.ko
+
+[2023-09-14 17:28:58] INFO  << hi3516cv500_wdt.ko
+
+[2023-09-14 17:28:58] INFO  << hi_cipher.ko
+
+[2023-09-14 17:28:58] INFO  << hi_mipi_rx.ko
+
+[2023-09-14 17:28:58] INFO  << hi_mipi_tx.ko
+
+[2023-09-14 17:28:58] INFO  << hi_osal.ko
+
+[2023-09-14 17:28:58] INFO  << hi_user.ko
+
+[2023-09-14 17:28:58] INFO  << hifb.ko
+
+[2023-09-14 17:28:58] INFO  << load3516cv500
+
+[2023-09-14 17:28:58] INFO  << sys_config.ko
+
+[2023-09-14 17:28:58] INFO  << libavfocus.so
+
+[2023-09-14 17:28:58] INFO  << libavfocus.so
+
+[2023-09-14 17:28:58] INFO  << libVoiceEngine.so
+
+[2023-09-14 17:28:58] INFO  << libaaccomm.so
+
+[2023-09-14 17:28:58] INFO  << libaacdec.so
+
+[2023-09-14 17:28:58] INFO  << libaacenc.so
+
+[2023-09-14 17:28:58] INFO  << libaacsbrdec.so
+
+[2023-09-14 17:28:58] INFO  << libaacsbrenc.so
+
+[2023-09-14 17:28:58] INFO  << libhive_AEC.so
+
+[2023-09-14 17:28:58] INFO  << libhive_AGC.so
+
+[2023-09-14 17:28:58] INFO  << libhive_ANR.so
+
+[2023-09-14 17:28:58] INFO  << libhive_EQ.so
+
+[2023-09-14 17:28:58] INFO  << libhive_HPF.so
+
+[2023-09-14 17:28:58] INFO  << libhive_RES.so
+
+[2023-09-14 17:28:58] INFO  << libhive_RES_ext.so
+
+[2023-09-14 17:28:58] INFO  << libhive_common.so
+
+[2023-09-14 17:28:58] INFO  << libhive_record.so
+
+[2023-09-14 17:28:58] INFO  << libnl.so
+
+[2023-09-14 17:28:58] INFO  << libnl.so.1
+
+[2023-09-14 17:28:58] INFO  << libnnie.so
+
+[2023-09-14 17:28:58] INFO  << libsecurec.so
+
+[2023-09-14 17:28:58] INFO  << libsns_imx335.so
+
+[2023-09-14 17:28:58] INFO  << libsns_imx335binn.so
+
+[2023-09-14 17:28:58] INFO  << libsns_imx385.so
+
+[2023-09-14 17:28:58] INFO  << libsns_mx30_imx385.so
+
+[2023-09-14 17:28:58] INFO  << alarming.711
+
+[2023-09-14 17:28:58] INFO  << chat_hangup.711
+
+[2023-09-14 17:28:58] INFO  << chat_ring.711
+
+[2023-09-14 17:28:58] INFO  << chattip1.711
+
+[2023-09-14 17:28:58] INFO  << chattip2.711
+
+[2023-09-14 17:28:58] INFO  << alarm1.711
+
+[2023-09-14 17:28:58] INFO  << alarm2.711
+
+[2023-09-14 17:28:58] INFO  << alarm3.711
+
+[2023-09-14 17:28:58] INFO  << chat_no_answer.711
+
+[2023-09-14 17:28:58] INFO  << chat_refuse.711
+
+[2023-09-14 17:28:58] INFO  << closeprotect.711
+
+[2023-09-14 17:28:58] INFO  << notfindnet.711
+
+[2023-09-14 17:28:58] INFO  << reset.711
+
+[2023-09-14 17:28:58] INFO  << revNetSetting.711
+
+[2023-09-14 17:28:58] INFO  << startprotect.711
+
+[2023-09-14 17:28:58] INFO  << startrecord.711
+
+[2023-09-14 17:28:58] INFO  << stoprecord.711
+
+[2023-09-14 17:28:58] INFO  << voiceStart.711
+
+[2023-09-14 17:28:58] INFO  << waitforsetting.pcm
+
+[2023-09-14 17:28:58] INFO  << waitset.711
+
+[2023-09-14 17:28:58] INFO  << wifi_fail.711
+
+[2023-09-14 17:28:58] INFO  << wifi_ok.711
+
+[2023-09-14 17:28:58] INFO  << chat_no_answer.711
+
+[2023-09-14 17:28:58] INFO  << chat_refuse.711
+
+[2023-09-14 17:28:58] INFO  << closeprotect.711
+
+[2023-09-14 17:28:58] INFO  << notfindnet.711
+
+[2023-09-14 17:28:58] INFO  << reset.711
+
+[2023-09-14 17:28:58] INFO  << revNetSetting.711
+
+[2023-09-14 17:28:58] INFO  << startprotect.711
+
+[2023-09-14 17:28:58] INFO  << startrecord.711
+
+[2023-09-14 17:28:58] INFO  << stoprecord.711
+
+[2023-09-14 17:28:58] INFO  << voiceStart.711
+
+[2023-09-14 17:28:58] INFO  << waitforsetting.pcm
+
+[2023-09-14 17:28:58] INFO  << waitset.711
+
+[2023-09-14 17:28:58] INFO  << wifi_fail.711
+
+[2023-09-14 17:28:58] INFO  << wifi_ok.711
+
+[2023-09-14 17:28:58] INFO  << mySystem
+
+[2023-09-14 17:28:58] INFO  << sctrl
+
+[2023-09-14 17:28:58] INFO  << thttpd
+
+[2023-09-14 17:28:58] INFO  << writeflash
+
+[2023-09-14 17:28:58] INFO  << msyh16_CP936.bin
+
+[2023-09-14 17:28:58] INFO  << nASC16.bin
+
+[2023-09-14 17:28:58] SKIP     html
+[2023-09-14 17:28:58] INFO  << language.cfg
+
+[2023-09-14 17:28:58] INFO  << zh-cn.lan
+
+[2023-09-14 17:28:58] INFO  << networkcfg.sh
+
+[2023-09-14 17:28:58] INFO  << cacert.pem
+
+[2023-09-14 17:28:58] INFO  << startup.sh
+
+[2023-09-14 17:28:58] INFO  << zhy3516dsiv300-NULL-NULL-ver.bin
+
+[2023-09-14 17:28:58] INFO  << ash
+
+[2023-09-14 17:28:58] INFO  << base64
+
+[2023-09-14 17:28:58] INFO  << btools
+
+[2023-09-14 17:28:58] INFO  << busybox
+
+[2023-09-14 17:28:58] INFO  << cat
+
+[2023-09-14 17:28:58] INFO  << catv
+
+[2023-09-14 17:28:58] INFO  << chgrp
+
+[2023-09-14 17:28:58] INFO  << chmod
+
+[2023-09-14 17:28:58] INFO  << chown
+
+[2023-09-14 17:28:58] INFO  << conspy
+
+[2023-09-14 17:28:58] INFO  << cp
+
+[2023-09-14 17:28:58] INFO  << cpio
+
+[2023-09-14 17:28:58] INFO  << cttyhack
+
+[2023-09-14 17:28:58] INFO  << date
+
+[2023-09-14 17:28:58] INFO  << dd
+
+[2023-09-14 17:28:58] INFO  << df
+
+[2023-09-14 17:28:58] INFO  << dmesg
+
+[2023-09-14 17:28:58] INFO  << dnsdomainname
+
+[2023-09-14 17:28:58] INFO  << dumpkmap
+
+[2023-09-14 17:28:58] INFO  << echo
+
+[2023-09-14 17:28:58] INFO  << ed
+
+[2023-09-14 17:28:58] INFO  << egrep
+
+[2023-09-14 17:28:58] INFO  << false
+
+[2023-09-14 17:28:58] INFO  << fatattr
+
+[2023-09-14 17:28:58] INFO  << fdflush
+
+[2023-09-14 17:28:58] INFO  << fgrep
+
+[2023-09-14 17:28:58] INFO  << fsync
+
+[2023-09-14 17:28:58] INFO  << fw_printenv
+
+[2023-09-14 17:28:58] INFO  << fw_setenv
+
+[2023-09-14 17:28:58] INFO  << getopt
+
+[2023-09-14 17:28:58] INFO  << grep
+
+[2023-09-14 17:28:58] INFO  << gunzip
+
+[2023-09-14 17:28:58] INFO  << gzip
+
+[2023-09-14 17:28:58] INFO  << hiddrs
+
+[2023-09-14 17:28:58] INFO  << himc
+
+[2023-09-14 17:28:58] INFO  << himd
+
+[2023-09-14 17:28:58] INFO  << himd.l
+
+[2023-09-14 17:28:58] INFO  << himm
+
+[2023-09-14 17:28:58] INFO  << hostname
+
+[2023-09-14 17:28:58] INFO  << hush
+
+[2023-09-14 17:28:58] INFO  << hwclock
+
+[2023-09-14 17:28:58] INFO  << i2c_read
+
+[2023-09-14 17:28:58] INFO  << i2c_write
+
+[2023-09-14 17:28:58] INFO  << ionice
+
+[2023-09-14 17:28:58] INFO  << iostat
+
+[2023-09-14 17:28:58] INFO  << ipcalc
+
+[2023-09-14 17:28:58] INFO  << kbd_mode
+
+[2023-09-14 17:28:58] INFO  << kill
+
+[2023-09-14 17:28:58] INFO  << linux32
+
+[2023-09-14 17:28:58] INFO  << linux64
+
+[2023-09-14 17:28:58] INFO  << ln
+
+[2023-09-14 17:28:58] INFO  << login
+
+[2023-09-14 17:28:58] INFO  << ls
+
+[2023-09-14 17:28:58] INFO  << lzop
+
+[2023-09-14 17:28:58] INFO  << makemime
+
+[2023-09-14 17:28:58] INFO  << mkdir
+
+[2023-09-14 17:28:58] INFO  << mknod
+
+[2023-09-14 17:28:58] INFO  << mktemp
+
+[2023-09-14 17:28:58] INFO  << more
+
+[2023-09-14 17:28:58] INFO  << mount
+
+[2023-09-14 17:28:58] INFO  << mount_as_tmpfs
+
+[2023-09-14 17:28:58] INFO  << mountpoint
+
+[2023-09-14 17:28:58] INFO  << mpstat
+
+[2023-09-14 17:28:58] INFO  << mt
+
+[2023-09-14 17:28:58] INFO  << mv
+
+[2023-09-14 17:28:58] INFO  << netstat
+
+[2023-09-14 17:28:58] INFO  << nice
+
+[2023-09-14 17:28:58] INFO  << pidof
+
+[2023-09-14 17:28:58] INFO  << ping
+
+[2023-09-14 17:28:58] INFO  << ping6
+
+[2023-09-14 17:28:58] INFO  << pipe_progress
+
+[2023-09-14 17:28:58] INFO  << printenv
+
+[2023-09-14 17:28:58] INFO  << ps
+
+[2023-09-14 17:28:58] INFO  << pwd
+
+[2023-09-14 17:28:58] INFO  << reformime
+
+[2023-09-14 17:28:58] INFO  << reprint
+
+[2023-09-14 17:28:58] INFO  << rev
+
+[2023-09-14 17:28:58] INFO  << rm
+
+[2023-09-14 17:28:58] INFO  << rmdir
+
+[2023-09-14 17:28:58] INFO  << rpm
+
+[2023-09-14 17:28:58] INFO  << run-parts
+
+[2023-09-14 17:28:58] INFO  << scriptreplay
+
+[2023-09-14 17:28:58] INFO  << sed
+
+[2023-09-14 17:28:58] INFO  << setarch
+
+[2023-09-14 17:28:58] INFO  << setserial
+
+[2023-09-14 17:28:58] INFO  << sh
+
+[2023-09-14 17:28:58] INFO  << sleep
+
+[2023-09-14 17:28:58] INFO  << ssp_read
+
+[2023-09-14 17:28:58] INFO  << ssp_write
+
+[2023-09-14 17:28:58] INFO  << stat
+
+[2023-09-14 17:28:58] INFO  << stty
+
+[2023-09-14 17:28:58] INFO  << su
+
+[2023-09-14 17:28:58] INFO  << sync
+
+[2023-09-14 17:28:58] INFO  << tar
+
+[2023-09-14 17:28:58] INFO  << touch
+
+[2023-09-14 17:28:58] INFO  << true
+
+[2023-09-14 17:28:58] INFO  << udevadm
+
+[2023-09-14 17:28:58] INFO  << udevd
+
+[2023-09-14 17:28:58] INFO  << udevstart
+
+[2023-09-14 17:28:58] INFO  << umount
+
+[2023-09-14 17:28:58] INFO  << uname
+
+[2023-09-14 17:28:58] INFO  << usleep
+
+[2023-09-14 17:28:58] INFO  << vi
+
+[2023-09-14 17:28:58] INFO  << watch
+
+[2023-09-14 17:28:58] INFO  << zcat
+
+[2023-09-14 17:28:58] SKIP     .gitkeep
+[2023-09-14 17:28:58] INFO  << firmware.cfg
+
+[2023-09-14 17:28:58] INFO  << fs-version
+
+[2023-09-14 17:28:58] INFO  << fstab
+
+[2023-09-14 17:28:58] INFO  << fw_env.config
+
+[2023-09-14 17:28:58] INFO  << group
+
+[2023-09-14 17:28:58] INFO  << S00devs
+
+[2023-09-14 17:28:58] INFO  << S01udev
+
+[2023-09-14 17:28:58] INFO  << S80network
+
+[2023-09-14 17:28:58] INFO  << rcS
+
+[2023-09-14 17:28:58] INFO  << inittab
+
+[2023-09-14 17:28:58] INFO  << jovision.cfg
+
+[2023-09-14 17:28:58] INFO  << localtime
+
+[2023-09-14 17:28:58] INFO  << login.defs
+
+[2023-09-14 17:28:58] INFO  << mtab
+
+[2023-09-14 17:28:58] SKIP     .gitkeep
+[2023-09-14 17:28:58] INFO  << common-auth
+
+[2023-09-14 17:28:58] INFO  << common-password
+
+[2023-09-14 17:28:58] INFO  << passwd
+
+[2023-09-14 17:28:58] INFO  << passwd-
+
+[2023-09-14 17:28:58] SKIP     .gitkeep
+[2023-09-14 17:28:58] INFO  << profile
+
+[2023-09-14 17:28:58] INFO  << protocols
+
+[2023-09-14 17:28:58] INFO  << services
+
+[2023-09-14 17:28:58] INFO  << sshd_config
+
+[2023-09-14 17:28:58] INFO  << sysctl.conf
+
+[2023-09-14 17:28:58] INFO  << syslog.conf
+
+[2023-09-14 17:28:58] INFO  << disk-hotplug.sh
+
+[2023-09-14 17:28:58] INFO  << firmware.sh
+
+[2023-09-14 17:28:58] INFO  << 11-usb-hotplug.rules
+
+[2023-09-14 17:28:58] INFO  << 12-add-sd.rules
+
+[2023-09-14 17:28:58] INFO  << 12-remove-sd.rules
+
+[2023-09-14 17:28:58] INFO  << 50-firmware.rules
+
+[2023-09-14 17:28:58] INFO  << 54-gphoto.rules
+
+[2023-09-14 17:28:58] INFO  << 60-pcmcia.rules
+
+[2023-09-14 17:28:58] INFO  << 75-cd-aliases-generator.rules.optional
+
+[2023-09-14 17:28:58] INFO  << 75-persistent-net-generator.rules.optional
+
+[2023-09-14 17:28:58] INFO  << 90-hal.rules
+
+[2023-09-14 17:28:58] INFO  << 97-bluetooth-serial.rules
+
+[2023-09-14 17:28:58] INFO  << 99-fuse.rules
+
+[2023-09-14 17:28:58] INFO  << device-mapper.rules
+
+[2023-09-14 17:28:58] INFO  << udev.conf
+
+[2023-09-14 17:28:58] INFO  << usbdev-hotplug.sh
+
+[2023-09-14 17:28:58] SKIP     .gitkeep
+[2023-09-14 17:28:58] SKIP     .gitkeep
+[2023-09-14 17:28:58] INFO  << libsns_imx335.so
+
+[2023-09-14 17:28:58] INFO  << libsns_imx385.so
+
+[2023-09-14 17:28:58] INFO  << init
+
+[2023-09-14 17:28:58] INFO  << a7_softfp_neon-vfpv4
+
+[2023-09-14 17:28:58] INFO  << ld-2.24.so
+
+[2023-09-14 17:28:58] INFO  << ld-linux-armhf.so.3
+
+[2023-09-14 17:28:58] INFO  << ld-linux.so.3
+
+[2023-09-14 17:28:58] INFO  << libBrokenLocale-2.24.so
+
+[2023-09-14 17:28:58] INFO  << libBrokenLocale.so.1
+
+[2023-09-14 17:28:58] INFO  << libSegFault.so
+
+[2023-09-14 17:28:58] INFO  << libanl-2.24.so
+
+[2023-09-14 17:28:58] INFO  << libanl.so.1
+
+[2023-09-14 17:28:58] INFO  << libc-2.24.so
+
+[2023-09-14 17:28:58] INFO  << libc.so.6
+
+[2023-09-14 17:28:58] INFO  << libcidn-2.24.so
+
+[2023-09-14 17:28:58] INFO  << libcidn.so.1
+
+[2023-09-14 17:28:58] INFO  << libcrypt-2.24.so
+
+[2023-09-14 17:28:58] INFO  << libcrypt.so.1
+
+[2023-09-14 17:28:58] INFO  << libdl-2.24.so
+
+[2023-09-14 17:28:58] INFO  << libdl.so.2
+
+[2023-09-14 17:28:58] INFO  << libgcc_s.so
+
+[2023-09-14 17:28:58] INFO  << libgcc_s.so.1
+
+[2023-09-14 17:28:58] INFO  << libgomp.so
+
+[2023-09-14 17:28:58] INFO  << libgomp.so.1
+
+[2023-09-14 17:28:58] INFO  << libgomp.so.1.0.0
+
+[2023-09-14 17:28:58] INFO  << libm-2.24.so
+
+[2023-09-14 17:28:58] INFO  << libm.so.6
+
+[2023-09-14 17:28:58] INFO  << libmemusage.so
+
+[2023-09-14 17:28:58] INFO  << libnsl-2.24.so
+
+[2023-09-14 17:28:58] INFO  << libnsl.so.1
+
+[2023-09-14 17:28:58] INFO  << libnss_compat-2.24.so
+
+[2023-09-14 17:28:58] INFO  << libnss_compat.so.2
+
+[2023-09-14 17:28:58] INFO  << libnss_db-2.24.so
+
+[2023-09-14 17:28:58] INFO  << libnss_db.so.2
+
+[2023-09-14 17:28:58] INFO  << libnss_dns-2.24.so
+
+[2023-09-14 17:28:58] INFO  << libnss_dns.so.2
+
+[2023-09-14 17:28:58] INFO  << libnss_files-2.24.so
+
+[2023-09-14 17:28:58] INFO  << libnss_files.so.2
+
+[2023-09-14 17:28:58] INFO  << libnss_hesiod-2.24.so
+
+[2023-09-14 17:28:58] INFO  << libnss_hesiod.so.2
+
+[2023-09-14 17:28:58] INFO  << libnss_nis-2.24.so
+
+[2023-09-14 17:28:58] INFO  << libnss_nis.so.2
+
+[2023-09-14 17:28:58] INFO  << libnss_nisplus-2.24.so
+
+[2023-09-14 17:28:58] INFO  << libnss_nisplus.so.2
+
+[2023-09-14 17:28:58] INFO  << libpcprofile.so
+
+[2023-09-14 17:28:58] INFO  << libpthread-2.24.so
+
+[2023-09-14 17:28:58] INFO  << libpthread.so.0
+
+[2023-09-14 17:28:58] INFO  << libresolv-2.24.so
+
+[2023-09-14 17:28:58] INFO  << libresolv.so.2
+
+[2023-09-14 17:28:58] INFO  << librt-2.24.so
+
+[2023-09-14 17:28:58] INFO  << librt.so.1
+
+[2023-09-14 17:28:58] INFO  << libstdc++.so
+
+[2023-09-14 17:28:58] INFO  << libstdc++.so.6
+
+[2023-09-14 17:28:58] INFO  << libstdc++.so.6.0.23
+
+[2023-09-14 17:28:58] INFO  << libthread_db-1.0.so
+
+[2023-09-14 17:28:58] INFO  << libthread_db.so.1
+
+[2023-09-14 17:28:58] INFO  << libutil-2.24.so
+
+[2023-09-14 17:28:58] INFO  << libutil.so.1
+
+[2023-09-14 17:28:58] INFO  << linuxrc
+
+[2023-09-14 17:28:58] INFO  << mkimg.rootfs
+
+[2023-09-14 17:28:58] INFO  << mknod_console
+
+[2023-09-14 17:28:58] SKIP     .gitkeep
+[2023-09-14 17:28:58] SKIP     .gitkeep
+[2023-09-14 17:28:58] SKIP     .gitkeep
+[2023-09-14 17:28:58] SKIP     .profile
+[2023-09-14 17:28:58] INFO  << rootfs-base.tgz
+
+[2023-09-14 17:28:58] INFO  << acpid
+
+[2023-09-14 17:28:58] INFO  << adjtimex
+
+[2023-09-14 17:28:58] INFO  << arp
+
+[2023-09-14 17:28:58] INFO  << blkid
+
+[2023-09-14 17:28:58] INFO  << blockdev
+
+[2023-09-14 17:28:58] INFO  << bootchartd
+
+[2023-09-14 17:28:58] INFO  << depmod
+
+[2023-09-14 17:28:58] INFO  << devmem
+
+[2023-09-14 17:28:58] INFO  << fbsplash
+
+[2023-09-14 17:28:58] INFO  << fdisk
+
+[2023-09-14 17:28:58] INFO  << findfs
+
+[2023-09-14 17:28:58] INFO  << freeramdisk
+
+[2023-09-14 17:28:58] INFO  << fsck.minix
+
+[2023-09-14 17:28:58] INFO  << fstrim
+
+[2023-09-14 17:28:58] INFO  << getty
+
+[2023-09-14 17:28:58] INFO  << halt
+
+[2023-09-14 17:28:58] INFO  << hdparm
+
+[2023-09-14 17:28:58] INFO  << ifconfig
+
+[2023-09-14 17:28:58] INFO  << ifdown
+
+[2023-09-14 17:28:58] INFO  << ifenslave
+
+[2023-09-14 17:28:58] INFO  << ifup
+
+[2023-09-14 17:28:58] INFO  << init
+
+[2023-09-14 17:28:58] INFO  << insmod
+
+[2023-09-14 17:28:58] INFO  << ip
+
+[2023-09-14 17:28:58] INFO  << ipaddr
+
+[2023-09-14 17:28:58] INFO  << iplink
+
+[2023-09-14 17:28:58] INFO  << ipneigh
+
+[2023-09-14 17:28:58] INFO  << iproute
+
+[2023-09-14 17:28:58] INFO  << iprule
+
+[2023-09-14 17:28:58] INFO  << iptunnel
+
+[2023-09-14 17:28:58] INFO  << klogd
+
+[2023-09-14 17:28:58] INFO  << loadkmap
+
+[2023-09-14 17:28:58] INFO  << logread
+
+[2023-09-14 17:28:58] INFO  << losetup
+
+[2023-09-14 17:28:58] INFO  << lsmod
+
+[2023-09-14 17:28:58] INFO  << makedevs
+
+[2023-09-14 17:28:58] INFO  << mdev
+
+[2023-09-14 17:28:58] INFO  << mkdosfs
+
+[2023-09-14 17:28:58] INFO  << mke2fs
+
+[2023-09-14 17:28:58] INFO  << mkfs.minix
+
+[2023-09-14 17:28:58] INFO  << mkfs.vfat
+
+[2023-09-14 17:28:58] INFO  << mkswap
+
+[2023-09-14 17:28:58] INFO  << modinfo
+
+[2023-09-14 17:28:58] INFO  << modprobe
+
+[2023-09-14 17:28:58] INFO  << mount-sd.sh
+
+[2023-09-14 17:28:58] INFO  << nameif
+
+[2023-09-14 17:28:58] INFO  << pivot_root
+
+[2023-09-14 17:28:58] INFO  << poweroff
+
+[2023-09-14 17:28:58] INFO  << raidautorun
+
+[2023-09-14 17:28:58] INFO  << reboot
+
+[2023-09-14 17:28:58] INFO  << rmmod
+
+[2023-09-14 17:28:58] INFO  << route
+
+[2023-09-14 17:28:58] INFO  << runlevel
+
+[2023-09-14 17:28:58] INFO  << setconsole
+
+[2023-09-14 17:28:58] INFO  << slattach
+
+[2023-09-14 17:28:58] INFO  << start-stop-daemon
+
+[2023-09-14 17:28:58] INFO  << sulogin
+
+[2023-09-14 17:28:58] INFO  << swapoff
+
+[2023-09-14 17:28:58] INFO  << swapon
+
+[2023-09-14 17:28:58] INFO  << switch_root
+
+[2023-09-14 17:28:58] INFO  << sysctl
+
+[2023-09-14 17:28:58] INFO  << syslogd
+
+[2023-09-14 17:28:58] INFO  << tunctl
+
+[2023-09-14 17:28:58] INFO  << udhcpc
+
+[2023-09-14 17:28:58] INFO  << uevent
+
+[2023-09-14 17:28:58] INFO  << umount-sd.sh
+
+[2023-09-14 17:28:58] INFO  << vconfig
+
+[2023-09-14 17:28:58] INFO  << watchdog
+
+[2023-09-14 17:28:58] INFO  << zcip
+
+[2023-09-14 17:28:58] INFO  << [
+
+[2023-09-14 17:28:58] INFO  << [[
+
+[2023-09-14 17:28:58] INFO  << awk
+
+[2023-09-14 17:28:58] INFO  << basename
+
+[2023-09-14 17:28:58] INFO  << beep
+
+[2023-09-14 17:28:58] INFO  << blkdiscard
+
+[2023-09-14 17:28:58] INFO  << bunzip2
+
+[2023-09-14 17:28:58] INFO  << bzcat
+
+[2023-09-14 17:28:58] INFO  << bzip2
+
+[2023-09-14 17:28:58] INFO  << cal
+
+[2023-09-14 17:28:58] INFO  << chpst
+
+[2023-09-14 17:28:58] INFO  << chrt
+
+[2023-09-14 17:28:58] INFO  << chvt
+
+[2023-09-14 17:28:58] INFO  << cksum
+
+[2023-09-14 17:28:58] INFO  << clear
+
+[2023-09-14 17:28:58] INFO  << cmp
+
+[2023-09-14 17:28:58] INFO  << comm
+
+[2023-09-14 17:28:58] INFO  << crontab
+
+[2023-09-14 17:28:58] INFO  << cryptpw
+
+[2023-09-14 17:28:58] INFO  << cut
+
+[2023-09-14 17:28:58] INFO  << dc
+
+[2023-09-14 17:28:58] INFO  << deallocvt
+
+[2023-09-14 17:28:58] INFO  << diff
+
+[2023-09-14 17:28:58] INFO  << dirname
+
+[2023-09-14 17:28:58] INFO  << dos2unix
+
+[2023-09-14 17:28:58] INFO  << du
+
+[2023-09-14 17:28:58] INFO  << dumpleases
+
+[2023-09-14 17:28:58] INFO  << eject
+
+[2023-09-14 17:28:58] INFO  << env
+
+[2023-09-14 17:28:58] INFO  << envdir
+
+[2023-09-14 17:28:58] INFO  << envuidgid
+
+[2023-09-14 17:28:58] INFO  << expand
+
+[2023-09-14 17:28:58] INFO  << expr
+
+[2023-09-14 17:28:58] INFO  << fgconsole
+
+[2023-09-14 17:28:58] INFO  << find
+
+[2023-09-14 17:28:58] INFO  << flock
+
+[2023-09-14 17:28:58] INFO  << fold
+
+[2023-09-14 17:28:58] INFO  << free
+
+[2023-09-14 17:28:58] INFO  << ftpget
+
+[2023-09-14 17:28:58] INFO  << ftpput
+
+[2023-09-14 17:28:58] INFO  << fuser
+
+[2023-09-14 17:28:58] INFO  << groups
+
+[2023-09-14 17:28:58] INFO  << hd
+
+[2023-09-14 17:28:58] INFO  << head
+
+[2023-09-14 17:28:58] INFO  << hexdump
+
+[2023-09-14 17:28:58] INFO  << hostid
+
+[2023-09-14 17:28:58] INFO  << id
+
+[2023-09-14 17:28:58] INFO  << install
+
+[2023-09-14 17:28:58] INFO  << ipcrm
+
+[2023-09-14 17:28:58] INFO  << ipcs
+
+[2023-09-14 17:28:58] INFO  << killall
+
+[2023-09-14 17:28:58] INFO  << last
+
+[2023-09-14 17:28:58] INFO  << less
+
+[2023-09-14 17:28:58] INFO  << logger
+
+[2023-09-14 17:28:58] INFO  << logname
+
+[2023-09-14 17:28:58] INFO  << lpq
+
+[2023-09-14 17:28:58] INFO  << lpr
+
+[2023-09-14 17:28:58] INFO  << lsof
+
+[2023-09-14 17:28:58] INFO  << lspci
+
+[2023-09-14 17:28:58] INFO  << lsusb
+
+[2023-09-14 17:28:58] INFO  << lzcat
+
+[2023-09-14 17:28:58] INFO  << lzma
+
+[2023-09-14 17:28:58] INFO  << lzopcat
+
+[2023-09-14 17:28:58] INFO  << man
+
+[2023-09-14 17:28:58] INFO  << md5sum
+
+[2023-09-14 17:28:58] INFO  << mesg
+
+[2023-09-14 17:28:58] INFO  << microcom
+
+[2023-09-14 17:28:58] INFO  << mkfifo
+
+[2023-09-14 17:28:58] INFO  << mkpasswd
+
+[2023-09-14 17:28:58] INFO  << nc
+
+[2023-09-14 17:28:58] INFO  << nmeter
+
+[2023-09-14 17:28:58] INFO  << nohup
+
+[2023-09-14 17:28:58] INFO  << nslookup
+
+[2023-09-14 17:28:58] INFO  << od
+
+[2023-09-14 17:28:58] INFO  << openvt
+
+[2023-09-14 17:28:58] INFO  << passwd
+
+[2023-09-14 17:28:58] INFO  << patch
+
+[2023-09-14 17:28:58] INFO  << pgrep
+
+[2023-09-14 17:28:58] INFO  << pkill
+
+[2023-09-14 17:28:58] INFO  << pmap
+
+[2023-09-14 17:28:58] INFO  << printf
+
+[2023-09-14 17:28:58] INFO  << pscan
+
+[2023-09-14 17:28:58] INFO  << pstree
+
+[2023-09-14 17:28:58] INFO  << pwdx
+
+[2023-09-14 17:28:58] INFO  << readlink
+
+[2023-09-14 17:28:58] INFO  << realpath
+
+[2023-09-14 17:28:58] INFO  << renice
+
+[2023-09-14 17:28:58] INFO  << reset
+
+[2023-09-14 17:28:58] INFO  << resize
+
+[2023-09-14 17:28:58] INFO  << rpm2cpio
+
+[2023-09-14 17:28:58] INFO  << runsv
+
+[2023-09-14 17:28:58] INFO  << runsvdir
+
+[2023-09-14 17:28:58] INFO  << rx
+
+[2023-09-14 17:28:58] INFO  << script
+
+[2023-09-14 17:28:58] INFO  << seq
+
+[2023-09-14 17:28:58] INFO  << setkeycodes
+
+[2023-09-14 17:28:58] INFO  << setsid
+
+[2023-09-14 17:28:58] INFO  << setuidgid
+
+[2023-09-14 17:28:58] INFO  << sha1sum
+
+[2023-09-14 17:28:58] INFO  << sha256sum
+
+[2023-09-14 17:28:58] INFO  << sha3sum
+
+[2023-09-14 17:28:58] INFO  << sha512sum
+
+[2023-09-14 17:28:58] INFO  << showkey
+
+[2023-09-14 17:28:58] INFO  << shuf
+
+[2023-09-14 17:28:58] INFO  << smemcap
+
+[2023-09-14 17:28:58] INFO  << softlimit
+
+[2023-09-14 17:28:58] INFO  << sort
+
+[2023-09-14 17:28:58] INFO  << split
+
+[2023-09-14 17:28:58] INFO  << strings
+
+[2023-09-14 17:28:58] INFO  << sum
+
+[2023-09-14 17:28:58] INFO  << sv
+
+[2023-09-14 17:28:58] INFO  << svc
+
+[2023-09-14 17:28:58] INFO  << tac
+
+[2023-09-14 17:28:58] INFO  << tail
+
+[2023-09-14 17:28:58] INFO  << tcpsvd
+
+[2023-09-14 17:28:58] INFO  << tee
+
+[2023-09-14 17:28:58] INFO  << telnet
+
+[2023-09-14 17:28:58] INFO  << test
+
+[2023-09-14 17:28:58] INFO  << tftp
+
+[2023-09-14 17:28:58] INFO  << time
+
+[2023-09-14 17:28:58] INFO  << timeout
+
+[2023-09-14 17:28:58] INFO  << top
+
+[2023-09-14 17:28:58] INFO  << tr
+
+[2023-09-14 17:28:58] INFO  << traceroute
+
+[2023-09-14 17:28:58] INFO  << traceroute6
+
+[2023-09-14 17:28:58] INFO  << truncate
+
+[2023-09-14 17:28:58] INFO  << tty
+
+[2023-09-14 17:28:58] INFO  << ttysize
+
+[2023-09-14 17:28:58] INFO  << udpsvd
+
+[2023-09-14 17:28:58] INFO  << unexpand
+
+[2023-09-14 17:28:58] INFO  << uniq
+
+[2023-09-14 17:28:58] INFO  << unix2dos
+
+[2023-09-14 17:28:58] INFO  << unlink
+
+[2023-09-14 17:28:58] INFO  << unlzma
+
+[2023-09-14 17:28:58] INFO  << unlzop
+
+[2023-09-14 17:28:58] INFO  << unshare
+
+[2023-09-14 17:28:58] INFO  << unxz
+
+[2023-09-14 17:28:58] INFO  << unzip
+
+[2023-09-14 17:28:58] INFO  << uptime
+
+[2023-09-14 17:28:58] INFO  << users
+
+[2023-09-14 17:28:58] INFO  << uudecode
+
+[2023-09-14 17:28:58] INFO  << uuencode
+
+[2023-09-14 17:28:58] INFO  << vlock
+
+[2023-09-14 17:28:58] INFO  << volname
+
+[2023-09-14 17:28:58] INFO  << wall
+
+[2023-09-14 17:28:58] INFO  << wc
+
+[2023-09-14 17:28:58] INFO  << wget
+
+[2023-09-14 17:28:58] INFO  << which
+
+[2023-09-14 17:28:58] INFO  << who
+
+[2023-09-14 17:28:58] INFO  << whoami
+
+[2023-09-14 17:28:58] INFO  << whois
+
+[2023-09-14 17:28:58] INFO  << xargs
+
+[2023-09-14 17:28:58] INFO  << xz
+
+[2023-09-14 17:28:58] INFO  << xzcat
+
+[2023-09-14 17:28:58] INFO  << yes
+
+[2023-09-14 17:28:58] INFO  << add-shell
+
+[2023-09-14 17:28:58] INFO  << addgroup
+
+[2023-09-14 17:28:58] INFO  << adduser
+
+[2023-09-14 17:28:58] INFO  << arping
+
+[2023-09-14 17:28:58] INFO  << brctl
+
+[2023-09-14 17:28:58] INFO  << chat
+
+[2023-09-14 17:28:58] INFO  << chpasswd
+
+[2023-09-14 17:28:58] INFO  << chroot
+
+[2023-09-14 17:28:58] INFO  << crond
+
+[2023-09-14 17:28:58] INFO  << delgroup
+
+[2023-09-14 17:28:58] INFO  << deluser
+
+[2023-09-14 17:28:58] INFO  << dhcprelay
+
+[2023-09-14 17:28:58] INFO  << dnsd
+
+[2023-09-14 17:28:58] INFO  << ether-wake
+
+[2023-09-14 17:28:58] INFO  << fakeidentd
+
+[2023-09-14 17:28:58] INFO  << fbset
+
+[2023-09-14 17:28:58] INFO  << fdformat
+
+[2023-09-14 17:28:58] INFO  << ftpd
+
+[2023-09-14 17:28:58] INFO  << httpd
+
+[2023-09-14 17:28:58] INFO  << i2cdetect
+
+[2023-09-14 17:28:58] INFO  << i2cdump
+
+[2023-09-14 17:28:58] INFO  << i2cget
+
+[2023-09-14 17:28:58] INFO  << i2cset
+
+[2023-09-14 17:28:58] INFO  << ifplugd
+
+[2023-09-14 17:28:58] INFO  << inetd
+
+[2023-09-14 17:28:58] INFO  << killall5
+
+[2023-09-14 17:28:58] INFO  << loadfont
+
+[2023-09-14 17:28:58] INFO  << lpd
+
+[2023-09-14 17:28:58] INFO  << nanddump
+
+[2023-09-14 17:28:58] INFO  << nandwrite
+
+[2023-09-14 17:28:58] INFO  << nbd-client
+
+[2023-09-14 17:28:58] INFO  << nfsroot
+
+[2023-09-14 17:28:58] INFO  << ntpd
+
+[2023-09-14 17:28:58] INFO  << popmaildir
+
+[2023-09-14 17:28:58] INFO  << powertop
+
+[2023-09-14 17:28:58] INFO  << rdate
+
+[2023-09-14 17:28:58] INFO  << rdev
+
+[2023-09-14 17:28:58] INFO  << readahead
+
+[2023-09-14 17:28:58] INFO  << readprofile
+
+[2023-09-14 17:28:58] INFO  << remove-shell
+
+[2023-09-14 17:28:58] INFO  << rtcwake
+
+[2023-09-14 17:28:58] INFO  << sendmail
+
+[2023-09-14 17:28:58] INFO  << setfont
+
+[2023-09-14 17:28:58] INFO  << setlogcons
+
+[2023-09-14 17:28:58] INFO  << svlogd
+
+[2023-09-14 17:28:58] INFO  << telnetd
+
+[2023-09-14 17:28:58] INFO  << tftpd
+
+[2023-09-14 17:28:58] INFO  << ubiattach
+
+[2023-09-14 17:28:58] INFO  << ubidetach
+
+[2023-09-14 17:28:58] INFO  << ubimkvol
+
+[2023-09-14 17:28:58] INFO  << ubirename
+
+[2023-09-14 17:28:58] INFO  << ubirmvol
+
+[2023-09-14 17:28:58] INFO  << ubirsvol
+
+[2023-09-14 17:28:58] INFO  << ubiupdatevol
+
+[2023-09-14 17:28:58] INFO  << udhcpd
+
+[2023-09-14 17:28:58] INFO  << default.script
+
+[2023-09-14 17:28:58] INFO  << utmp
+
+[2023-09-14 17:28:58] INFO  << wifi
+
+[2023-09-14 17:28:58] INFO  << u-boot.bin
+
+[2023-09-14 17:28:58] INFO 50000.squashfs
+
+                     SquashFS文件系统的映像文件，用于存储整个操作系统或特定软件包的只读文件系统。
+
+[2023-09-14 17:28:58] INFO B80000.squashfs
+
+                     SquashFS文件系统的映像文件，用于存储整个操作系统或特定软件包的只读文件系统。
+
+[2023-09-14 17:28:58] INFO D75757.xz
+
+                     xz压缩文件。
+
+[2023-09-14 17:28:58] INFO D758A5
+
+                     D758A5 {unzip} D758A5.xz
+
+[2023-09-14 17:28:58] INFO D758A5.xz
+
+                     xz压缩文件。
+
+[2023-09-14 17:28:58] INFO bashrc.sh
+
+                     bashrc.sh是一个在用户登录到 Bash shell 时自动执行的脚本文件，通常用于配置环境变量和别名等。
+
+[2023-09-14 17:28:58] INFO bash
+
+                     Bash 解释器
+
+[2023-09-14 17:28:58] INFO curl
+
+                     curl 是一个命令行工具，用于在各种协议之间传输数据。
+
+[2023-09-14 17:28:58] INFO fsck.fat
+
+                     fsck.fat 是一个用于检查和修复 FAT 文件系统的命令行工具。
+
+[2023-09-14 17:28:58] INFO iptables
+
+                     iptables是一个用于Linux操作系统中的防火墙工具，可以对网络数据进行过滤、转发、NAT等操作。它可以通过命令行进行配置和管理。
+
+[2023-09-14 17:28:58] INFO exfat.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN exfat.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi3516cv500_rtc.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi3516cv500_rtc.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi_adc.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi_adc.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi_gpio.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi_gpio.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi_motor.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi_motor.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi_piris.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi_piris.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi_pwm.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi_pwm.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi_sensor_i2c.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi_sensor_i2c.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi_sensor_spi.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi_sensor_spi.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO mx41908.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN mx41908.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO pan41908.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN pan41908.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi3516cv500_acodec.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi3516cv500_acodec.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi3516cv500_adec.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi3516cv500_adec.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi3516cv500_aenc.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi3516cv500_aenc.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi3516cv500_ai.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi3516cv500_ai.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi3516cv500_aio.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi3516cv500_aio.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi3516cv500_ao.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi3516cv500_ao.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi3516cv500_base.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi3516cv500_base.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi3516cv500_chnl.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi3516cv500_chnl.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi3516cv500_dis.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi3516cv500_dis.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi3516cv500_gdc.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi3516cv500_gdc.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi3516cv500_h264e.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi3516cv500_h264e.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi3516cv500_h265e.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi3516cv500_h265e.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi3516cv500_hdmi.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi3516cv500_hdmi.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi3516cv500_ir.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi3516cv500_ir.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi3516cv500_isp.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi3516cv500_isp.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi3516cv500_ive.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi3516cv500_ive.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi3516cv500_jpegd.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi3516cv500_jpegd.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi3516cv500_jpege.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi3516cv500_jpege.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi3516cv500_nnie.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi3516cv500_nnie.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi3516cv500_rc.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi3516cv500_rc.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi3516cv500_rgn.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi3516cv500_rgn.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi3516cv500_svprt.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi3516cv500_svprt.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi3516cv500_sys.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi3516cv500_sys.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi3516cv500_tde.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi3516cv500_tde.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi3516cv500_vdec.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi3516cv500_vdec.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi3516cv500_vedu.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi3516cv500_vedu.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi3516cv500_venc.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi3516cv500_venc.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi3516cv500_vfmw.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi3516cv500_vfmw.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi3516cv500_vgs.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi3516cv500_vgs.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi3516cv500_vi.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi3516cv500_vi.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi3516cv500_vo.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi3516cv500_vo.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi3516cv500_vpss.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi3516cv500_vpss.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi3516cv500_wdt.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi3516cv500_wdt.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi_cipher.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi_cipher.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi_mipi_rx.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi_mipi_rx.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi_mipi_tx.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi_mipi_tx.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi_osal.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi_osal.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hi_user.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hi_user.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO hifb.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN hifb.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO load3516cv500
+
+[2023-09-14 17:28:58] UNKNOWN 无文件信息
+
+[2023-09-14 17:28:58] INFO sys_config.ko
+
+                     Linux内核模块(Linux Kernel Object)文件，它包含了编译好的可加载内核模块的二进制代码和符号表等信息。
+[2023-09-14 17:28:58] WARN sys_config.ko@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO libavfocus.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:58] WARN libavfocus.so@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO libavfocus.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:58] WARN libavfocus.so@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO libVoiceEngine.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:58] WARN libVoiceEngine.so@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO libaaccomm.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:58] WARN libaaccomm.so@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO libaacdec.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:58] WARN libaacdec.so@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO libaacenc.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:58] WARN libaacenc.so@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO libaacsbrdec.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:58] WARN libaacsbrdec.so@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO libaacsbrenc.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:58] WARN libaacsbrenc.so@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO libhive_AEC.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:58] WARN libhive_AEC.so@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO libhive_AGC.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:58] WARN libhive_AGC.so@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO libhive_ANR.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:58] WARN libhive_ANR.so@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO libhive_EQ.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:58] WARN libhive_EQ.so@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO libhive_HPF.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:58] WARN libhive_HPF.so@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO libhive_RES.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:58] WARN libhive_RES.so@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO libhive_RES_ext.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:58] WARN libhive_RES_ext.so@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO libhive_common.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:58] WARN libhive_common.so@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO libhive_record.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:58] WARN libhive_record.so@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO libnl.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:58] WARN libnl.so@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO libnl.so.1
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。其中.1表示它是该共享对象的版本号。
+[2023-09-14 17:28:58] WARN libnl.so.1@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO libnnie.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:58] WARN libnnie.so@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO libsecurec.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:58] WARN libsecurec.so@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO libsns_imx335.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:58] WARN libsns_imx335.so@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO libsns_imx335binn.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:58] WARN libsns_imx335binn.so@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO libsns_imx385.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:58] WARN libsns_imx385.so@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO libsns_mx30_imx385.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:58] WARN libsns_mx30_imx385.so@elf != database@not elf
+
+
+[2023-09-14 17:28:58] INFO alarming.711
+
+                     音频文件。
+
+[2023-09-14 17:28:58] INFO chat_hangup.711
+
+                     音频文件。
+
+[2023-09-14 17:28:58] INFO chat_ring.711
+
+                     音频文件。
+
+[2023-09-14 17:28:58] INFO chattip1.711
+
+                     音频文件。
+
+[2023-09-14 17:28:58] INFO chattip2.711
+
+                     音频文件。
+
+[2023-09-14 17:28:58] INFO alarm1.711
+
+                     音频文件。
+
+[2023-09-14 17:28:58] INFO alarm2.711
+
+                     音频文件。
+
+[2023-09-14 17:28:58] INFO alarm3.711
+
+                     音频文件。
+
+[2023-09-14 17:28:58] INFO chat_no_answer.711
+
+                     音频文件。
+
+[2023-09-14 17:28:58] INFO chat_refuse.711
+
+                     音频文件。
+
+[2023-09-14 17:28:58] INFO closeprotect.711
+
+                     音频文件。
+
+[2023-09-14 17:28:58] INFO notfindnet.711
+
+                     音频文件。
+
+[2023-09-14 17:28:58] INFO reset.711
+
+                     音频文件。
+
+[2023-09-14 17:28:58] INFO revNetSetting.711
+
+                     音频文件。
+
+[2023-09-14 17:28:58] INFO startprotect.711
+
+                     音频文件。
+
+[2023-09-14 17:28:58] INFO startrecord.711
+
+                     音频文件。
+
+[2023-09-14 17:28:58] INFO stoprecord.711
+
+                     音频文件。
+
+[2023-09-14 17:28:59] INFO voiceStart.711
+
+                     音频文件。
+
+[2023-09-14 17:28:59] INFO waitforsetting.pcm
+
+                     相关IPC驱动程序所使用的PCM音频数据文件。在IPC系统中，PCM (Pulse-code Modulation)是一种数字音频编码格式，用于将模拟音频信号转换为数字音频数据流。它通常用于嵌入式设备和其他资源受限的环境中，以实现高质量的音频传输。
+
+[2023-09-14 17:28:59] INFO waitset.711
+
+                     音频文件。
+
+[2023-09-14 17:28:59] INFO wifi_fail.711
+
+                     音频文件。
+
+[2023-09-14 17:28:59] INFO wifi_ok.711
+
+                     音频文件。
+
+[2023-09-14 17:28:59] INFO chat_no_answer.711
+
+                     音频文件。
+
+[2023-09-14 17:28:59] INFO chat_refuse.711
+
+                     音频文件。
+
+[2023-09-14 17:28:59] INFO closeprotect.711
+
+                     音频文件。
+
+[2023-09-14 17:28:59] INFO notfindnet.711
+
+                     音频文件。
+
+[2023-09-14 17:28:59] INFO reset.711
+
+                     音频文件。
+
+[2023-09-14 17:28:59] INFO revNetSetting.711
+
+                     音频文件。
+
+[2023-09-14 17:28:59] INFO startprotect.711
+
+                     音频文件。
+
+[2023-09-14 17:28:59] INFO startrecord.711
+
+                     音频文件。
+
+[2023-09-14 17:28:59] INFO stoprecord.711
+
+                     音频文件。
+
+[2023-09-14 17:28:59] INFO voiceStart.711
+
+                     音频文件。
+
+[2023-09-14 17:28:59] INFO waitforsetting.pcm
+
+                     相关IPC驱动程序所使用的PCM音频数据文件。在IPC系统中，PCM (Pulse-code Modulation)是一种数字音频编码格式，用于将模拟音频信号转换为数字音频数据流。它通常用于嵌入式设备和其他资源受限的环境中，以实现高质量的音频传输。
+
+[2023-09-14 17:28:59] INFO waitset.711
+
+                     音频文件。
+
+[2023-09-14 17:28:59] INFO wifi_fail.711
+
+                     音频文件。
+
+[2023-09-14 17:28:59] INFO wifi_ok.711
+
+                     音频文件。
+
+[2023-09-14 17:28:59] INFO mySystem
+
+[2023-09-14 17:28:59] UNKNOWN 无文件信息
+[2023-09-14 17:28:59] WARN 未知的ELF文件！！！  
+
+
+[2023-09-14 17:28:59] INFO sctrl
+
+[2023-09-14 17:28:59] UNKNOWN 无文件信息
+[2023-09-14 17:28:59] WARN 未知的ELF文件！！！  
+
+
+[2023-09-14 17:28:59] INFO thttpd
+
+[2023-09-14 17:28:59] UNKNOWN 无文件信息
+[2023-09-14 17:28:59] WARN 未知的ELF文件！！！  
+
+
+[2023-09-14 17:28:59] INFO writeflash
+
+[2023-09-14 17:28:59] UNKNOWN 无文件信息
+[2023-09-14 17:28:59] WARN 未知的ELF文件！！！  
+
+
+[2023-09-14 17:28:59] INFO msyh16_CP936.bin
+
+                     msyh16_CP936.bin是一种字体文件，它包含了Microsoft YaHei字体的二进制数据。CP936代表简体中文字符集编码GB 2312-80的Windows Code Page编号，因此该字体文件中包含的字符集适用于简体中文环境。"16"表示这个字体文件中包含的字形为16像素大小的版本。通常，这种字体文件可以被用于在各种软件和系统环境下显示中文文本。
+
+[2023-09-14 17:28:59] INFO nASC16.bin
+
+                     nASC16.bin是一种字体文件，它包含了ASCII字母、数字和符号的二进制数据。其中，ASC代表ASCII字符集（American Standard Code for Information Interchange），而16表示这个字体文件中包含的字形为16像素大小的版本。通常，这种字体文件可以被用于在各种软件和系统环境下显示英文文本和基本的ASCII字符。
+
+[2023-09-14 17:28:59] INFO language.cfg
+
+                     language.cfg是一种文本配置文件，通常用于软件或系统中设置语言选项。它包含了一系列键值对，其中键表示支持的语言选项名称，而值则表示相应语言选项的代码或标识符。在程序或系统启动时，该文件会被读取并解析，以确定当前要使用的语言选项，并且该选项会被保存在内存中供后续使用。这种语言配置文件可以被使用在各种软件和系统环境中，并且允许用户方便地更改和定制语言选项。
+
+[2023-09-14 17:28:59] INFO zh-cn.lan
+
+                     zh-cn.lan文件是固件中用于本地化的语言文件之一，其中"zh-cn"表示中文简体。它包含了固件界面和提示信息等文本的本地化翻译，以便在支持中文简体语言的设备上显示出适当的文字。通常这种语言文件会被存储在固件中，并在设备启动时自动加载到内存中，以供系统在需要时调用。
+
+[2023-09-14 17:28:59] INFO networkcfg.sh
+
+                     networkcfg.sh是一种Bash脚本文件，通常在Linux系统中用于配置网络参数和设置网络连接。它包含了一系列命令和参数，可以用于设置IP地址、子网掩码、网关、DNS服务器和其他网络相关的选项。该脚本可以通过命令行或其他脚本调用，并且需要以管理员权限运行。通常，这种脚本文件会被用于自动化网络配置过程，例如在系统启动时自动配置网络接口。
+
+[2023-09-14 17:28:59] INFO cacert.pem
+
+                     cacert.pem是一个包含根证书的文件，用于验证数字证书的真实性和可信度。它通常用于安全传输层协议（TLS）和安全套接字层（SSL）通信中，以确保双方之间的通信是加密和安全的。
+
+[2023-09-14 17:28:59] INFO startup.sh
+
+                     startup.sh文件通常是用于启动和配置系统的脚本文件。它可能包含一些系统初始化命令和应用程序启动脚本，以确保系统在启动时正常运行。
+
+[2023-09-14 17:28:59] INFO zhy3516dsiv300-NULL-NULL-ver.bin
+
+                     二进制文件。可能指用于更新固件或软件的二进制映像文件。通常包含了新版本的程序代码或操作系统，可以通过特定的升级程序或工具进行安装。
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/ash.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/base64.
+
+[2023-09-14 17:28:59] INFO btools
+
+[2023-09-14 17:28:59] UNKNOWN 无文件信息
+[2023-09-14 17:28:59] WARN 未知的ELF文件！！！  
+
+
+[2023-09-14 17:28:59] INFO busybox
+
+                     BusyBox 是一个精简的 Unix 工具集合，包含了许多常用的命令和工具，可以在嵌入式系统和小型 Linux 系统中取代一些独立的工具。
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/cat.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/catv.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/chgrp.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/chmod.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/chown.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/conspy.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/cp.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/cpio.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/cttyhack.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/date.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/dd.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/df.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/dmesg.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/dnsdomainname.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/dumpkmap.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/echo.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/ed.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/egrep.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/false.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/fatattr.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/fdflush.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/fgrep.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/fsync.
+
+[2023-09-14 17:28:59] INFO fw_printenv
+
+                     在Linux系统中，fw_printenv通常用于显示U-Boot引导加载程序环境变量的命令行实用工具。在固件中，fw_printenv可能被用于查看和修改引导加载程序环境变量、诊断启动问题、备份和恢复引导配置等操作。
+
+[2023-09-14 17:28:59] INFO fw_setenv
+
+                     在Linux系统中，fw_setenv通常用于设置U-Boot引导加载程序环境变量的命令行实用工具。在固件中，fw_setenv可能被用于修改引导加载程序环境变量、恢复默认配置、调整系统启动参数等操作。
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/getopt.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/grep.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/gunzip.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/gzip.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/hiddrs.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/himc.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/himd.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/himd.l.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/himm.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/hostname.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/hush.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/hwclock.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/i2c_read.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/i2c_write.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/ionice.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/iostat.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/ipcalc.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/kbd_mode.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/kill.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/linux32.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/linux64.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/ln.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/login.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/ls.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/lzop.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/makemime.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/mkdir.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/mknod.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/mktemp.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/more.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/mount.
+
+[2023-09-14 17:28:59] INFO mount_as_tmpfs
+
+                     将指定的文件系统挂载为 tmpfs 文件系统，以便在需要时创建易于清空和管理的临时文件系统。
+[2023-09-14 17:28:59] WARN mount_as_tmpfs@not elf != database@elf
+
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/mountpoint.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/mpstat.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/mt.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/mv.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/netstat.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/nice.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/pidof.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/ping.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/ping6.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/pipe_progress.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/printenv.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/ps.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/pwd.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/reformime.
+
+[2023-09-14 17:28:59] INFO reprint
+
+                     重复打印输出，接受标准输入设备上的数据，并将其输出到标准输出设备，并支持对输出内容进行重复显示、滚动、颜色等处理，以便用户或开发人员实时监控程序的运行情况。
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/rev.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/rm.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/rmdir.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/rpm.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/run-parts.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/scriptreplay.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/sed.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/setarch.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/setserial.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/sh.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/sleep.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/ssp_read.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/ssp_write.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/stat.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/stty.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/su.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/sync.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/tar.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/touch.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/true.
+
+[2023-09-14 17:28:59] INFO udevadm
+
+                     在 Linux 系统中，udev（userspace device manager）是一种用户空间的设备管理器，可以动态地创建、删除和管理设备节点，并为设备分配唯一的标识符。
+
+[2023-09-14 17:28:59] INFO udevd
+
+                     Linux 系统中的设备管理器，用于监听系统中的设备事件，并根据规则动态地创建、删除和管理设备节点。
+
+[2023-09-14 17:28:59] INFO udevstart
+
+                     用于启动 udev 守护进程的脚本或程序。在 Linux 系统中，udev（userspace device manager）是一种用户空间的设备管理器，用于监听系统中的设备事件，并根据规则动态地创建、删除和管理设备节点。
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/umount.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/uname.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/usleep.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/vi.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/watch.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/bin/zcat.
+
+[2023-09-14 17:28:59] INFO firmware.cfg
+
+                     用于存储固件系统的配置信息的文件。在嵌入式系统中，固件通常需要以静态的方式提供必要的程序、驱动和配置等信息，以便启动和运行设备。
+
+[2023-09-14 17:28:59] INFO fs-version
+
+                     显示固件系统文件系统版本信息的工具。在 Linux 系统中，文件系统是操作系统的重要组成部分之一，负责管理和存储文件和目录等数据。
+[2023-09-14 17:28:59] WARN fs-version@not elf != database@elf
+
+
+[2023-09-14 17:28:59] INFO fstab
+
+                     用于存储文件系统挂载点和参数的配置文件。在 Linux 系统中，fstab 文件通常用于定义系统启动时需要挂载的文件系统类型、设备、挂载点和参数等信息。
+
+[2023-09-14 17:28:59] INFO fw_env.config
+
+                     用于存储 U-Boot bootloader 环境变量信息的配置文件。在 Linux 系统中，U-Boot 是一个常用的开源 bootloader，主要用于启动和加载操作系统内核。
+
+[2023-09-14 17:28:59] INFO group
+
+                     用于管理用户组的工具。在 Linux 系统中，用户和用户组是系统中的两个重要概念，用户可以属于一个或多个用户组，而用户组则拥有一定的访问权限和资源控制能力。
+[2023-09-14 17:28:59] WARN group@not elf != database@elf
+
+
+[2023-09-14 17:28:59] INFO S00devs
+
+                     在系统启动时自动探测硬件设备并加载驱动的脚本文件。在 Linux 系统中，设备驱动程序是用来控制和管理硬件设备的程序，通常需要在系统启动时自动加载并初始化。
+
+[2023-09-14 17:28:59] INFO S01udev
+
+                     在系统启动时自动管理设备节点的脚本文件。在 Linux 系统中，设备节点是用来与硬件设备交互的特殊文件，可以读取或写入设备数据、控制设备状态等等。
+
+[2023-09-14 17:28:59] INFO S80network
+
+                     一个用于启动和配置网络服务的脚本文件。在 Linux 系统中，网络服务是操作系统中的一个重要组成部分之一，用于实现网络通信、数据传输和应用交互等功能。
+
+[2023-09-14 17:28:59] INFO rcS
+
+                     一个在系统启动时自动执行的脚本文件，用于进行系统初始化和一些必要的配置操作。在 Linux 系统中，系统启动时需要进行一系列的初始化和配置工作，以便让系统正常地运行和提供服务。具体而言，rcS 可能包含了以下一些操作：1.设置系统时钟和时间 2.检查并挂载文件系统 3.加载必要的内核模块 4.配置网络服务和参数 5.启动各种系统服务，例如 SSH、FTP、HTTP 等等 6.加载用户程序和应用。
+
+[2023-09-14 17:28:59] INFO inittab
+
+                     一个用于定义系统启动时执行的初始化程序和进程的配置文件。在 Linux 系统中，init 进程是系统启动的第一个进程，它负责启动和管理所有其他进程，并提供一些基本的系统服务。inittab 可能是一个包含启动和管理进程的配置文件，用于在系统启动时自动加载并运行必要的进程和服务。
+
+[2023-09-14 17:28:59] INFO jovision.cfg
+
+                     用于存储 jovision 监控设备配置信息的文件，例如设备名称、IP 地址、端口号、视频码率、图像质量等等。
+
+[2023-09-14 17:28:59] INFO localtime
+
+                     设置系统时区和加载相应的时区信息文件，以帮助用户或管理员正确地显示本地时间和进行时间同步。
+
+[2023-09-14 17:28:59] INFO login.defs
+
+                     用于定义系统登录和密码策略的配置文件，用于限制和管理用户的登录和访问行为。在 Linux 系统中，登录和密码策略是保护系统安全和防范攻击的重要措施之一。
+
+[2023-09-14 17:28:59] INFO mtab
+
+                     mtab 可能是一个包含当前已挂载文件系统和磁盘信息的文件，它记录了系统中所有已挂载的设备和文件系统的相关参数和状态信息。
+
+[2023-09-14 17:28:59] INFO common-auth
+
+                     common-auth 可能是一个包含系统认证和授权策略的文件，用于设置和管理各种认证和授权相关参数。
+
+[2023-09-14 17:28:59] INFO common-password
+
+                     common-password 可能是一个包含系统用户密码策略的文件，用于设置和管理各种密码相关参数。
+
+[2023-09-14 17:28:59] INFO passwd
+
+                     passwd 可能是一个命令行工具，允许用户或管理员使用当前用户的用户名和密码或超级用户权限来修改自己或其他用户的密码。
+[2023-09-14 17:28:59] WARN passwd@not elf != database@elf
+
+
+[2023-09-14 17:28:59] INFO passwd-
+
+                     passwd
+
+[2023-09-14 17:28:59] INFO profile
+
+[2023-09-14 17:28:59] UNKNOWN 无文件信息
+
+[2023-09-14 17:28:59] INFO protocols
+
+                     protocols 可能是一个包含网络协议和服务的文件，用于设置和管理各种协议和服务相关参数。
+[2023-09-14 17:28:59] WARN protocols@not elf != database@elf
+
+
+[2023-09-14 17:28:59] INFO services
+
+                     services 可能是一个包含系统服务的文件，用于设置和管理各种服务相关参数。可以帮助用户或管理员控制和管理系统中各种服务的启动、停止、状态等操作。
+[2023-09-14 17:28:59] WARN services@not elf != database@elf
+
+
+[2023-09-14 17:28:59] INFO sshd_config
+
+                     sshd_config 可能是一个包含 OpenSSH 服务器配置参数的文件，用于设置和管理远程 SSH 登录相关选项。
+
+[2023-09-14 17:28:59] INFO sysctl.conf
+
+                     sysctl.conf 可能是一个包含内核参数的文件，用于设置和管理系统内核相关选项和参数。
+
+[2023-09-14 17:28:59] INFO syslog.conf
+
+                     syslog.conf 可能是一个包含系统日志记录参数的文件，用于设置和管理系统各类程序、服务和事件产生的日志信息。
+
+[2023-09-14 17:28:59] INFO disk-hotplug.sh
+
+                     disk-hotplug.sh 可能是一个用于热插拔硬盘的脚本文件，包含了系统自动识别和挂载新插入的硬盘设备的参数和脚本逻辑。
+
+[2023-09-14 17:28:59] INFO firmware.sh
+
+                     firmware.sh 可能是一个用于固件升级的脚本文件，包含了检测、下载和安装固件的参数和脚本逻辑。
+
+[2023-09-14 17:28:59] INFO 11-usb-hotplug.rules
+
+                     11-usb-hotplug.rules 可能是一个包含 USB 设备热插拔规则的 udev 规则文件，用于设置和管理 USB 设备的自动识别和挂载。
+
+[2023-09-14 17:28:59] INFO 12-add-sd.rules
+
+                     用于处理添加 SD 卡时的设备事件。具体而言，该规则可能会指定某些操作，例如在插入 SD 卡时自动加载驱动程序、设置权限、创建软链接等。
+
+[2023-09-14 17:28:59] INFO 12-remove-sd.rules
+
+                     在用户从系统中移除 SD 卡时触发特定的操作。这些操作可能包括卸载文件系统、释放相关资源、取消挂载点等。
+
+[2023-09-14 17:28:59] INFO 50-firmware.rules
+
+                     可能包含一些规则，用于在固件（firmware）相关的设备事件发生时触发特定的操作。这些操作可能涉及固件加载、更新、升级等。
+
+[2023-09-14 17:28:59] INFO 54-gphoto.rules
+
+                     用于在与 GPhoto 相机框架相关的设备事件发生时触发特定的操作。GPhoto 是一个用于与数码相机通信的开源软件框架，该规则文件可能会配置设备的访问权限、加载所需的驱动程序、设置挂载点等。
+
+[2023-09-14 17:28:59] INFO 60-pcmcia.rules
+
+                     用于在与 PCMCIA（Personal Computer Memory Card International Association）设备相关的设备事件发生时触发特定的操作。PCMCIA 是一种用于插拔式扩展卡的标准接口，该规则文件可能会配置设备的访问权限、加载所需的驱动程序、设置挂载点等。
+
+[2023-09-14 17:28:59] INFO 75-cd-aliases-generator.rules.optional
+
+                     为 CD 设备生成别名，以方便用户在命令行或脚本中引用这些设备。别名可以根据设备的属性、位置等信息进行配置，使用户能够更方便地操作和访问 CD 设备。
+
+[2023-09-14 17:28:59] INFO 75-persistent-net-generator.rules.optional
+
+                     为网络设备生成持久化的名称，以便在系统重新启动或重新连接网络时能够稳定地识别和配置网络接口。通过为每个网络设备分配唯一的持久化名称，可以避免在设备数量或设备顺序发生变化时导致网络接口名称混乱的问题。
+
+[2023-09-14 17:28:59] INFO 90-hal.rules
+
+                     90-hal.rules 文件可能包含一些规则，用于在 HAL 中定义设备事件和操作。这些规则可能涉及设备的识别、属性获取、驱动程序加载等。
+
+[2023-09-14 17:28:59] INFO 97-bluetooth-serial.rules
+
+                     文件可能包含一些规则，用于在与蓝牙串口设备相关的设备事件发生时触发特定的操作。蓝牙串口设备可用于无线连接外围设备，例如蓝牙耳机、蓝牙键盘等。该规则文件可能会配置设备的访问权限、加载所需的驱动程序、设置挂载点等。
+
+[2023-09-14 17:28:59] INFO 99-fuse.rules
+
+                     文件可能包含一些规则，用于在与 FUSE（用户空间文件系统）相关的设备事件发生时触发特定的操作。FUSE 允许用户空间程序实现自定义文件系统，该规则文件可能会配置设备的访问权限、加载所需的驱动程序、设置挂载点等。
+
+[2023-09-14 17:28:59] INFO device-mapper.rules
+
+                     文件可能包含一些规则，用于在与设备映射器（Device Mapper）相关的设备事件发生时触发特定的操作。设备映射器是 Linux 内核提供的功能，可用于创建虚拟块设备，并支持诸如逻辑卷管理（LVM）、软件 RAID 和加密等功能。
+
+[2023-09-14 17:28:59] INFO udev.conf
+
+                     Udev 是设备管理器，用于管理和控制系统中的硬件设备。udev.conf 文件中包含了许多配置选项，用于调整 Udev 的行为和功能。这些选项可用于定义设备节点的命名规则、设备事件的处理方式、设备权限的设置等。通过修改这个配置文件，可以对 Udev 的操作和规则进行自定义。
+
+[2023-09-14 17:28:59] INFO usbdev-hotplug.sh
+
+                     用于处理 USB 设备的热插拔事件。包含一些自定义的脚本代码，用于在 USB 设备被热插拔时进行特定的操作。这些操作可能涉及设备的挂载、卸载、加载驱动程序、配置参数等任务。
+
+[2023-09-14 17:28:59] INFO libsns_imx335.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:59] WARN libsns_imx335.so@elf != database@not elf
+
+
+[2023-09-14 17:28:59] INFO libsns_imx385.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:59] WARN libsns_imx385.so@elf != database@not elf
+
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/init.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/lib/a7_softfp_neon-vfpv4.
+
+[2023-09-14 17:28:59] INFO ld-2.24.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:59] WARN ld-2.24.so@elf != database@not elf
+
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/lib/ld-linux-armhf.so.3.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/lib/ld-linux.so.3.
+
+[2023-09-14 17:28:59] INFO libBrokenLocale-2.24.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:59] WARN libBrokenLocale-2.24.so@elf != database@not elf
+
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/lib/libBrokenLocale.so.1.
+
+[2023-09-14 17:28:59] INFO libSegFault.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:59] WARN libSegFault.so@elf != database@not elf
+
+
+[2023-09-14 17:28:59] INFO libanl-2.24.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:59] WARN libanl-2.24.so@elf != database@not elf
+
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/lib/libanl.so.1.
+
+[2023-09-14 17:28:59] INFO libc-2.24.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:59] WARN libc-2.24.so@elf != database@not elf
+
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/lib/libc.so.6.
+
+[2023-09-14 17:28:59] INFO libcidn-2.24.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:59] WARN libcidn-2.24.so@elf != database@not elf
+
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/lib/libcidn.so.1.
+
+[2023-09-14 17:28:59] INFO libcrypt-2.24.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:59] WARN libcrypt-2.24.so@elf != database@not elf
+
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/lib/libcrypt.so.1.
+
+[2023-09-14 17:28:59] INFO libdl-2.24.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:59] WARN libdl-2.24.so@elf != database@not elf
+
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/lib/libdl.so.2.
+
+[2023-09-14 17:28:59] INFO libgcc_s.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+
+[2023-09-14 17:28:59] INFO libgcc_s.so.1
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。其中.1表示它是该共享对象的版本号。
+[2023-09-14 17:28:59] WARN libgcc_s.so.1@elf != database@not elf
+
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/lib/libgomp.so.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/lib/libgomp.so.1.
+
+[2023-09-14 17:28:59] INFO libgomp.so.1.0.0
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。其中.1.0.0表示它是该共享对象的版本号。
+[2023-09-14 17:28:59] WARN libgomp.so.1.0.0@elf != database@not elf
+
+
+[2023-09-14 17:28:59] INFO libm-2.24.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:59] WARN libm-2.24.so@elf != database@not elf
+
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/lib/libm.so.6.
+
+[2023-09-14 17:28:59] INFO libmemusage.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:59] WARN libmemusage.so@elf != database@not elf
+
+
+[2023-09-14 17:28:59] INFO libnsl-2.24.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:59] WARN libnsl-2.24.so@elf != database@not elf
+
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/lib/libnsl.so.1.
+
+[2023-09-14 17:28:59] INFO libnss_compat-2.24.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:59] WARN libnss_compat-2.24.so@elf != database@not elf
+
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/lib/libnss_compat.so.2.
+
+[2023-09-14 17:28:59] INFO libnss_db-2.24.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:59] WARN libnss_db-2.24.so@elf != database@not elf
+
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/lib/libnss_db.so.2.
+
+[2023-09-14 17:28:59] INFO libnss_dns-2.24.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:59] WARN libnss_dns-2.24.so@elf != database@not elf
+
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/lib/libnss_dns.so.2.
+
+[2023-09-14 17:28:59] INFO libnss_files-2.24.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:59] WARN libnss_files-2.24.so@elf != database@not elf
+
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/lib/libnss_files.so.2.
+
+[2023-09-14 17:28:59] INFO libnss_hesiod-2.24.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:59] WARN libnss_hesiod-2.24.so@elf != database@not elf
+
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/lib/libnss_hesiod.so.2.
+
+[2023-09-14 17:28:59] INFO libnss_nis-2.24.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:59] WARN libnss_nis-2.24.so@elf != database@not elf
+
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/lib/libnss_nis.so.2.
+
+[2023-09-14 17:28:59] INFO libnss_nisplus-2.24.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:59] WARN libnss_nisplus-2.24.so@elf != database@not elf
+
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/lib/libnss_nisplus.so.2.
+
+[2023-09-14 17:28:59] INFO libpcprofile.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:59] WARN libpcprofile.so@elf != database@not elf
+
+
+[2023-09-14 17:28:59] INFO libpthread-2.24.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:59] WARN libpthread-2.24.so@elf != database@not elf
+
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/lib/libpthread.so.0.
+
+[2023-09-14 17:28:59] INFO libresolv-2.24.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:59] WARN libresolv-2.24.so@elf != database@not elf
+
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/lib/libresolv.so.2.
+
+[2023-09-14 17:28:59] INFO librt-2.24.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:59] WARN librt-2.24.so@elf != database@not elf
+
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/lib/librt.so.1.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/lib/libstdc++.so.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/lib/libstdc++.so.6.
+
+[2023-09-14 17:28:59] INFO libstdc++.so.6.0.23
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。其中.6.0.23表示它是该共享对象的版本号。
+[2023-09-14 17:28:59] WARN libstdc++.so.6.0.23@elf != database@not elf
+
+
+[2023-09-14 17:28:59] INFO libthread_db-1.0.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:59] WARN libthread_db-1.0.so@elf != database@not elf
+
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/lib/libthread_db.so.1.
+
+[2023-09-14 17:28:59] INFO libutil-2.24.so
+
+                     共享对象(Shared Object)文件，也称为共享库。它是一种二进制文件格式，包含已编译的可重定位代码，用于在程序运行时动态链接到操作系统和其他程序中。
+[2023-09-14 17:28:59] WARN libutil-2.24.so@elf != database@not elf
+
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/lib/libutil.so.1.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/linuxrc.
+
+[2023-09-14 17:28:59] INFO mkimg.rootfs
+
+                     mkimg.rootfs 可能是一个自定义的脚本或工具，用于将 squashfs-root-0 目录下的文件和目录打包成一个根文件系统映像。这个映像文件可以随后被烧录到存储介质（如闪存、SD 卡等）上，并作为嵌入式系统的根文件系统启动运行。
+
+[2023-09-14 17:28:59] INFO mknod_console
+
+                     mknod_console 可能是一个自定义的脚本或工具，用于创建 /dev/console 设备节点。这个设备节点通常是链接到系统默认的控制台设备，可以通过它进行终端登录或查看系统日志等操作。
+[2023-09-14 17:28:59] WARN mknod_console@not elf != database@elf
+
+
+[2023-09-14 17:28:59] INFO rootfs-base.tgz
+
+                     是一个压缩文件，可能是包含了基本的根文件系统的镜像。可能是一个预先制作好的、经过压缩的根文件系统映像。通常情况下，这个压缩文件可以被解压缩到设备的闪存、SD 卡或其他存储介质上，以启动嵌入式系统并运行操作系统。
+
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/acpid.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/adjtimex.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/arp.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/blkid.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/blockdev.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/bootchartd.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/depmod.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/devmem.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/fbsplash.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/fdisk.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/findfs.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/freeramdisk.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/fsck.minix.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/fstrim.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/getty.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/halt.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/hdparm.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/ifconfig.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/ifdown.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/ifenslave.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/ifup.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/init.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/insmod.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/ip.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/ipaddr.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/iplink.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/ipneigh.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/iproute.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/iprule.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/iptunnel.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/klogd.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/loadkmap.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/logread.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/losetup.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/lsmod.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/makedevs.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/mdev.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/mkdosfs.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/mke2fs.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/mkfs.minix.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/mkfs.vfat.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/mkswap.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/modinfo.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/modprobe.
+
+[2023-09-14 17:28:59] INFO mount-sd.sh
+
+                      mount-sd.sh 是一个脚本文件，用于挂载 SD 卡的脚本。
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/nameif.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/pivot_root.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/poweroff.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/raidautorun.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/reboot.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/rmmod.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/route.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/runlevel.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/setconsole.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/slattach.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/start-stop-daemon.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/sulogin.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/swapoff.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/swapon.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/switch_root.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/sysctl.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/syslogd.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/tunctl.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/udhcpc.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/uevent.
+
+[2023-09-14 17:28:59] INFO umount-sd.sh
+
+                      umount-sd.sh 是一个脚本文件，用于卸载 SD 卡的脚本。
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/vconfig.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/watchdog.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/sbin/zcip.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/[.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/[[.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/awk.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/basename.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/beep.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/blkdiscard.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/bunzip2.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/bzcat.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/bzip2.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/cal.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/chpst.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/chrt.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/chvt.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/cksum.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/clear.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/cmp.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/comm.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/crontab.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/cryptpw.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/cut.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/dc.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/deallocvt.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/diff.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/dirname.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/dos2unix.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/du.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/dumpleases.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/eject.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/env.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/envdir.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/envuidgid.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/expand.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/expr.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/fgconsole.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/find.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/flock.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/fold.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/free.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/ftpget.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/ftpput.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/fuser.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/groups.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/hd.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/head.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/hexdump.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/hostid.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/id.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/install.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/ipcrm.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/ipcs.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/killall.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/last.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/less.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/logger.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/logname.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/lpq.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/lpr.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/lsof.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/lspci.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/lsusb.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/lzcat.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/lzma.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/lzopcat.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/man.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/md5sum.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/mesg.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/microcom.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/mkfifo.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/mkpasswd.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/nc.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/nmeter.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/nohup.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/nslookup.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/od.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/openvt.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/passwd.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/patch.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/pgrep.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/pkill.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/pmap.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/printf.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/pscan.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/pstree.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/pwdx.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/readlink.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/realpath.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/renice.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/reset.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/resize.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/rpm2cpio.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/runsv.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/runsvdir.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/rx.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/script.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/seq.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/setkeycodes.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/setsid.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/setuidgid.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/sha1sum.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/sha256sum.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/sha3sum.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/sha512sum.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/showkey.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/shuf.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/smemcap.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/softlimit.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/sort.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/split.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/strings.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/sum.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/sv.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/svc.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/tac.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/tail.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/tcpsvd.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/tee.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/telnet.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/test.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/tftp.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/time.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/timeout.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/top.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/tr.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/traceroute.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/traceroute6.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/truncate.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/tty.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/ttysize.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/udpsvd.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/unexpand.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/uniq.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/unix2dos.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/unlink.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/unlzma.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/unlzop.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/unshare.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/unxz.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/unzip.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/uptime.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/users.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/uudecode.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/uuencode.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/vlock.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/volname.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/wall.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/wc.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/wget.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/which.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/who.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/whoami.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/whois.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/xargs.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/xz.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/xzcat.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/bin/yes.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/add-shell.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/addgroup.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/adduser.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/arping.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/brctl.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/chat.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/chpasswd.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/chroot.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/crond.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/delgroup.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/deluser.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/dhcprelay.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/dnsd.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/ether-wake.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/fakeidentd.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/fbset.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/fdformat.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/ftpd.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/httpd.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/i2cdetect.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/i2cdump.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/i2cget.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/i2cset.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/ifplugd.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/inetd.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/killall5.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/loadfont.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/lpd.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/nanddump.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/nandwrite.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/nbd-client.
+
+[2023-09-14 17:28:59] INFO nfsroot
+
+                     用于设置 NFS（Network File System）根文件系统的初始化和挂载。NFS 是一种网络文件系统协议，允许将远程服务器上的文件系统挂载到本地系统上。通过使用 NFS，可以实现在网络中共享文件和资源的功能。
+[2023-09-14 17:28:59] WARN nfsroot@not elf != database@elf
+
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/ntpd.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/popmaildir.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/powertop.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/rdate.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/rdev.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/readahead.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/readprofile.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/remove-shell.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/rtcwake.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/sendmail.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/setfont.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/setlogcons.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/svlogd.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/telnetd.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/tftpd.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/ubiattach.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/ubidetach.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/ubimkvol.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/ubirename.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/ubirmvol.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/ubirsvol.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/ubiupdatevol.
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/usr/sbin/udhcpd.
+
+[2023-09-14 17:28:59] INFO default.script
+
+                     一个包含了设备启动时自动执行的命令或脚本，用于初始化设备和加载必要的驱动程序等操作。默认情况下，这个脚本会在系统启动时运行，并根据脚本中所定义的指令进行设备初始化和配置。
+
+[2023-09-14 17:28:59] INFO utmp
+
+                     操作和管理记录已登录用户信息的 /var/run/utmp 文件，以便管理员对当前的用户会话进行监控和管理。
+[2023-09-14 17:28:59] WARN utmp@not elf != database@elf
+
+
+[2023-09-14 17:28:59] IGNORED ignored alias file: /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/_zy.bin.extracted/squashfs-root-0/wifi.
+
+[2023-09-14 17:28:59] INFO u-boot.bin
+
+                     u-boot.bin是一个常用的引导加载程序（bootloader），它负责初始化硬件设备和加载操作系统内核等任务。在嵌入式系统中，通电后首先运行的程序就是u-boot.bin。
+
+
+
+
+        内核版本信息：Linux version 4.9.37 (zs@Ubuntu16-025) (gcc version 6.3.0 (HC&C V100R002C00B035_20190218) ) #85 SMP Wed Apr 6 18:44:28 CST 2022        
+
+
+
+
+[2023-09-14 17:28:59] INFO 开始分析二进制可执行程序漏洞...
+
+[2023-09-14 17:28:59] PASS bash                                                        
+[2023-09-14 17:28:59] PASS curl                                                        
+[2023-09-14 17:28:59] PASS fsck.fat                                                    
+[2023-09-14 17:28:59] PASS iptables                                                    
+[2023-09-14 17:28:59] PASS exfat.ko                                                    
+[2023-09-14 17:28:59] PASS hi3516cv500_rtc.ko                                          
+[2023-09-14 17:28:59] PASS hi_adc.ko                                                   
+[2023-09-14 17:28:59] PASS hi_gpio.ko                                                  
+[2023-09-14 17:28:59] PASS hi_motor.ko                                                 
+[2023-09-14 17:28:59] PASS hi_piris.ko                                                 
+[2023-09-14 17:28:59] PASS hi_pwm.ko                                                   
+[2023-09-14 17:28:59] PASS hi_sensor_i2c.ko                                            
+[2023-09-14 17:28:59] PASS hi_sensor_spi.ko                                            
+[2023-09-14 17:28:59] PASS mx41908.ko                                                  
+[2023-09-14 17:28:59] PASS pan41908.ko                                                 
+[2023-09-14 17:28:59] PASS hi3516cv500_acodec.ko                                       
+[2023-09-14 17:28:59] PASS hi3516cv500_adec.ko                                         
+[2023-09-14 17:28:59] PASS hi3516cv500_aenc.ko                                         
+[2023-09-14 17:28:59] PASS hi3516cv500_ai.ko                                           
+[2023-09-14 17:28:59] PASS hi3516cv500_aio.ko                                          
+[2023-09-14 17:28:59] PASS hi3516cv500_ao.ko                                           
+[2023-09-14 17:28:59] PASS hi3516cv500_base.ko                                         
+[2023-09-14 17:28:59] PASS hi3516cv500_chnl.ko                                         
+[2023-09-14 17:28:59] PASS hi3516cv500_dis.ko                                          
+[2023-09-14 17:28:59] PASS hi3516cv500_gdc.ko                                          
+[2023-09-14 17:28:59] PASS hi3516cv500_h264e.ko                                        
+[2023-09-14 17:28:59] PASS hi3516cv500_h265e.ko                                        
+[2023-09-14 17:28:59] PASS hi3516cv500_hdmi.ko                                         
+[2023-09-14 17:28:59] PASS hi3516cv500_ir.ko                                           
+[2023-09-14 17:28:59] PASS hi3516cv500_isp.ko                                          
+[2023-09-14 17:28:59] PASS hi3516cv500_ive.ko                                          
+[2023-09-14 17:28:59] PASS hi3516cv500_jpegd.ko                                        
+[2023-09-14 17:28:59] PASS hi3516cv500_jpege.ko                                        
+[2023-09-14 17:28:59] PASS hi3516cv500_nnie.ko                                         
+[2023-09-14 17:28:59] PASS hi3516cv500_rc.ko                                           
+[2023-09-14 17:28:59] PASS hi3516cv500_rgn.ko                                          
+[2023-09-14 17:28:59] PASS hi3516cv500_svprt.ko                                        
+[2023-09-14 17:28:59] PASS hi3516cv500_sys.ko                                          
+[2023-09-14 17:28:59] PASS hi3516cv500_tde.ko                                          
+[2023-09-14 17:28:59] PASS hi3516cv500_vdec.ko                                         
+[2023-09-14 17:28:59] PASS hi3516cv500_vedu.ko                                         
+[2023-09-14 17:28:59] PASS hi3516cv500_venc.ko                                         
+[2023-09-14 17:28:59] PASS hi3516cv500_vfmw.ko                                         
+[2023-09-14 17:28:59] PASS hi3516cv500_vgs.ko                                          
+[2023-09-14 17:28:59] PASS hi3516cv500_vi.ko                                           
+[2023-09-14 17:28:59] PASS hi3516cv500_vo.ko                                           
+[2023-09-14 17:28:59] PASS hi3516cv500_vpss.ko                                         
+[2023-09-14 17:28:59] PASS hi3516cv500_wdt.ko                                          
+[2023-09-14 17:28:59] PASS hi_cipher.ko                                                
+[2023-09-14 17:28:59] PASS hi_mipi_rx.ko                                               
+[2023-09-14 17:28:59] PASS hi_mipi_tx.ko                                               
+[2023-09-14 17:28:59] PASS hi_osal.ko                                                  
+[2023-09-14 17:28:59] PASS hi_user.ko                                                  
+[2023-09-14 17:28:59] PASS hifb.ko                                                     
+[2023-09-14 17:28:59] PASS sys_config.ko                                               
+[2023-09-14 17:28:59] PASS libavfocus.so                                               
+[2023-09-14 17:28:59] PASS libavfocus.so                                               
+[2023-09-14 17:28:59] PASS libVoiceEngine.so                                           
+[2023-09-14 17:28:59] PASS libaaccomm.so                                               
+[2023-09-14 17:28:59] PASS libaacdec.so                                                
+[2023-09-14 17:28:59] PASS libaacenc.so                                                
+[2023-09-14 17:28:59] PASS libaacsbrdec.so                                             
+[2023-09-14 17:28:59] PASS libaacsbrenc.so                                             
+[2023-09-14 17:28:59] PASS libhive_AEC.so                                              
+[2023-09-14 17:28:59] PASS libhive_AGC.so                                              
+[2023-09-14 17:28:59] PASS libhive_ANR.so                                              
+[2023-09-14 17:28:59] PASS libhive_EQ.so                                               
+[2023-09-14 17:28:59] PASS libhive_HPF.so                                              
+[2023-09-14 17:28:59] PASS libhive_RES.so                                              
+[2023-09-14 17:28:59] PASS libhive_RES_ext.so                                          
+[2023-09-14 17:28:59] PASS libhive_common.so                                           
+[2023-09-14 17:28:59] PASS libhive_record.so                                           
+[2023-09-14 17:28:59] PASS libnl.so                                                    
+[2023-09-14 17:28:59] PASS libnl.so.1                                                  
+[2023-09-14 17:28:59] PASS libnnie.so                                                  
+[2023-09-14 17:28:59] PASS libsecurec.so                                               
+[2023-09-14 17:28:59] PASS libsns_imx335.so                                            
+[2023-09-14 17:28:59] PASS libsns_imx335binn.so                                        
+[2023-09-14 17:28:59] PASS libsns_imx385.so                                            
+[2023-09-14 17:28:59] PASS libsns_mx30_imx385.so                                       
+[2023-09-14 17:28:59] CatchError sql: Scan error on column index 1, name "regular": converting NULL to string is unsupported
+
+[2023-09-14 17:28:59] CatchError /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/pkg/sql/mysql.go:189 github.com/cimercomcn/goiotscanner/pkg/sql.(*MySQL).GetProgramVulnerabilities
+
+[2023-09-14 17:28:59] CatchError /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/pkg/scan/programvulnerability.go:19 github.com/cimercomcn/goiotscanner/pkg/scan.scanProgramVulnerability
+
+[2023-09-14 17:28:59] CatchError /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/pkg/scan/controller.go:42 github.com/cimercomcn/goiotscanner/pkg/scan.Start
+
+[2023-09-14 17:28:59] CatchError /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/main.go:64 github.com/cimercomcn/goiotscanner.Run
+
+[2023-09-14 17:28:59] CatchError /Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/main_test.go:34 github.com/cimercomcn/goiotscanner.TestMain
+
+[2023-09-14 17:28:59] CatchError _testmain.go:47 main.main
+
+[2023-09-14 17:28:59] CatchError /usr/local/go/src/runtime/proc.go:267 runtime.main
+
+[2023-09-14 17:28:59] CatchError /usr/local/go/src/runtime/asm_arm64.s:1197 runtime.goexit
+
+panic: runtime error: invalid memory address or nil pointer dereference
+[signal SIGSEGV: segmentation violation code=0x2 addr=0x18 pc=0x10263d934]
+
+goroutine 1 [running]:
+github.com/cimercomcn/goiotscanner/pkg/sql.(*MySQL).GetProgramVulnerabilities(0x140000522a8, 0x140003a8090)
+	/Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/pkg/sql/mysql.go:193 +0x164
+github.com/cimercomcn/goiotscanner/pkg/scan.scanProgramVulnerability()
+	/Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/pkg/scan/programvulnerability.go:19 +0x1ec
+github.com/cimercomcn/goiotscanner/pkg/scan.Start()
+	/Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/pkg/scan/controller.go:42 +0x1b4
+github.com/cimercomcn/goiotscanner.Run()
+	/Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/main.go:64 +0xe4
+github.com/cimercomcn/goiotscanner.TestMain(0x14000133df8?)
+	/Users/lyu/Workspace/电力物联网平台/代码/goiotscanner/main_test.go:34 +0x8c
+main.main()
+	_testmain.go:47 +0x150
+exit status 2
+FAIL	github.com/cimercomcn/goiotscanner	1.539s
